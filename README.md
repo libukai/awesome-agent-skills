@@ -24,7 +24,7 @@
 
 Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills.io/home)，能便捷地将个人经验转化为 AI Skill，快速构建轻量级的 Personal Agent。
 
-![](docs/media/img/20260114225957.png)
+![](assets/skills-sketch.png)
 
 以下是来自各个社交媒体上广受好评的中文教程，涵盖了从理论到实践、从入门到精通的各个方面：
 
