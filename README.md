@@ -24,6 +24,8 @@
 
 Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills.io/home)，能便捷地将个人经验转化为 AI Skill，快速构建轻量级的 Personal Agent。
 
+![](docs/media/img/20260114225957.png)
+
 以下是来自各个社交媒体上广受好评的中文教程，涵盖了从理论到实践、从入门到精通的各个方面：
 
 ### 喂饭教程
@@ -88,12 +90,16 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
 
+### 产品工具
+
+-   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流的 Skills 集合
+-   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：增强 Obsidian 功能的 Skills 集合
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 发布 X 文章的 Skill
+-   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
+
 ### 其他类型
 
--   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：增强 Obsidian 功能的 Skills 集合
 -   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现类 Manus 效果的 Skill
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 使用 Skill 发布 X 文章
--   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：使用 Skill 操控 NotebookLM
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
 ## 配套工具
