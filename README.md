@@ -31,7 +31,7 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 ### 喂饭教程
 
 -   [@一泽 Eze：Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)：
+-   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)
 -   [@向阳乔木：Claude Skill 免费白嫖，小白友好，开箱即用，绝了！](https://x.com/vista8/status/2010540934359097689)
 -   [@王树义：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
 -   [@岚叔：手把手教你多平台使用 Skill](https://x.com/LufzzLiz/status/2010309748714037756)
