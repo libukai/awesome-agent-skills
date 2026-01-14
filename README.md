@@ -45,6 +45,7 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 -   [OpenAI/Codex](https://developers.openai.com/codex/skills/)： 在 Codex 中使用 Skills 的说明文档
 -   [Google/Antigravity](https://antigravity.google/docs/skills)：在 Antigravity 中使用 Skills 的说明文档
 -   [Github/VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)：在 VS Code 中使用 Agent Skills 的说明文档
+-   [OpenCode](https://opencode.ai/docs/skills/)：在 OpenCode 中使用 Agent Skills 的说明文档
 -   [Cursor](https://cursor.com/cn/docs/context/skills)：在 Cursor 中使用 Agent Skills 的说明文档
 
 ## 技能商店
