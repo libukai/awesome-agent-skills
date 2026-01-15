@@ -1,20 +1,24 @@
-<p align="center">
-  <a href="https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills">
-  <img width="1280" height="640" alt="Composio banner" src="assets/awesome-agent-skills.png">
-  </a>
-</p>
+<div>
+  <p align="center">
+    <a href="https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills">
+    <img width="1280" height="640" alt="Composio banner" src="assets/awesome-agent-skills.png">
+    </a>
+  </p>
+</div>
 
-<p align="center">
-  <a href="https://awesome.re">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" />
-  </a>
-  <a href="https://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/Issues-welcome-brightgreen.svg?style=flat-square" alt="Issues Welcome" />
-  </a>
-  <a href="https://www.apache.org/licenses/LICENSE-2.0">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License: Apache-2.0" />
-  </a>
-</p>
+<div>
+  <p align="center">
+    <a href="https://awesome.re">
+      <img src="https://awesome.re/badge.svg" alt="Awesome" />
+    </a>
+    <a href="https://makeapullrequest.com">
+      <img src="https://img.shields.io/badge/Issues-welcome-brightgreen.svg?style=flat-square" alt="Issues Welcome" />
+    </a>
+    <a href="https://www.apache.org/licenses/LICENSE-2.0">
+      <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License: Apache-2.0" />
+    </a>
+  </p>
+</div>
 
 本项目致力于收集和分享最优质的中文 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
 
