@@ -51,30 +51,36 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 ## 官方支持
 
-Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行业领军公司的支持，迅速成为各个主流 AI 产品的标配。
+Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
 
-![Partner](assets/partners.png)
+安装 Agent Skills，只需要将 Skill 文件夹放入对应的目录即可，也可以使用 [runkids/skillshare](https://github.com/runkids/skillshare) 进行多工具同步。
+
+![](assets/skills_path.png)
+
+### CLI 工具
 
 -   [Anthropic/Claude Code](https://claude.com/skills)： 在 Claude Code 中使用 Skills 的说明文档
 -   [OpenAI/Codex](https://developers.openai.com/codex/skills/)： 在 Codex 中使用 Skills 的说明文档
--   [Google/Antigravity](https://antigravity.google/docs/skills)：在 Antigravity 中使用 Skills 的说明文档
+-   [Google/Gemini Cli](https://geminicli.com/docs/cli/skills/)： 在 Gemini Cli 中使用 Skills 的说明文档
+
+### IDE 工具
+
 -   [OpenCode](https://opencode.ai/docs/skills/)：在 OpenCode 中使用 Agent Skills 的说明文档
--   [Github/VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)：在 VS Code 中使用 Agent Skills 的说明文档
+-   [VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)：在 VS Code 中使用 Agent Skills 的说明文档
+-   [Antigravity](https://antigravity.google/docs/skills)：在 Antigravity 中使用 Skills 的说明文档
 -   [Cursor](https://cursor.com/cn/docs/context/skills)：在 Cursor 中使用 Agent Skills 的说明文档
 
 ## 技能商店
 
 [![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-推荐主力使用 [skillsmp](https://skillsmp.com/zh) 这个 Agent Skills 在线商店。
-
-该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。用户可以方便地浏览、搜索和下载所需的 Skills。
+推荐使用 [skillsmp](https://skillsmp.com/zh) 在线商店。该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行了整理。
 
 其他特色 Agent Skills 商店还有：
 
 -   [SkillStore](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
--   [活水插件](https://42plugin.com/)：中文 Plugin 商店， 包括 Skills 板块
 -   [skills.rest](https://skills.rest/)：提供 Skill 评分的 Agent Skills 商店
+-   [活水插件](https://42plugin.com/)：中文 Plugin 商店， 包括 Skills 板块
 
 ## 精选技能
 
@@ -124,8 +130,6 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 
 > ⚠️ 警告：以下资源尚未经过严格审查，可能存在质量参差不齐的情况，请谨慎使用风险自负。
 
--   [runkids/skillshare](https://github.com/runkids/skillshare): 通过一个命令同步多个 CLI 中的 Skills 
-
 ## 权威资料
 
 Anthropic 在官方博客中提供了丰富的 Agent Skills 相关教程，推荐有余力者阅读以下文章以深入了解 Agent Skills 的概念、创建方法和应用场景：
@@ -139,3 +143,7 @@ Anthropic 在官方博客中提供了丰富的 Agent Skills 相关教程，推�
 -   [https://www.anthropic.com/engineering/code-execution-with-mcp](https://www.anthropic.com/engineering/code-execution-with-mcp)
 -   [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills#real-world-skills-examples)
 -   [Don't Build Agents, Build Skills Instead](https://x.com/iamzhihui/status/2005883147305500681/photo/1)
+
+## 致谢
+
+![](assets/talk_is_cheap.png)
