@@ -22,7 +22,15 @@
 
 本项目致力于收集和分享最优质的中文 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
 
+> [!TIP]
 > 关注我的 X 账号 [@李不凯正在研究](https://x.com/libukai) ，即时获取有关 Agent Skills 的最新资讯和实用教程！
+
+<div>
+<blockquote>
+<p><strong>⚠️ 注意</strong></p>
+<p>以下资源尚未经过严格审查，可能存在质量参差不齐的情况。请谨慎使用，并在实际应用前进行充分测试。</p>
+</blockquote>
+</div>
 
 ## 快速入门
 
