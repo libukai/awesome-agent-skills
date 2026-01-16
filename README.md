@@ -129,8 +129,10 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 
 ## 待审查资源
 
-> ⚠️ 警告：以下资源尚未经过严格审查，可能存在质量参差不齐的情况，请谨慎使用风险自负。
+> ⚠️ 警告：以下资源尚未经过严格审查，可能存在质量参差不齐的情况。
 
+- [skild.sh](https://skild.sh/)：一个基于命令行的 Agent Skills 安装、管理和发布工具
+  
 ## 权威资料
 
 Anthropic 在官方博客中提供了丰富的 Agent Skills 相关教程，推荐有余力者阅读以下文章以深入了解 Agent Skills 的概念、创建方法和应用场景：
