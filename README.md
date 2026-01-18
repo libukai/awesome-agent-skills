@@ -1,3 +1,5 @@
+
+
 <div>
   <p align="center">
     <a href="https://platform.composio.dev/?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills">
@@ -18,6 +20,12 @@
       <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License: Apache-2.0" />
     </a>
   </p>
+</div>
+
+<div align="center">
+
+[English](README_EN.md) | [日本語](README_JA.md) | 简体中文
+
 </div>
 
 本项目致力于收集和分享最优质的中文 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
