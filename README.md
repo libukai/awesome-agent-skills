@@ -28,7 +28,7 @@
 
 Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills.io/home)，通过定义特定任务执行规范，能便捷地将个人经验转化为 AI Skill，快速构建轻量级的 Personal Agent。
 
-按照标准规范，每个 Skill 都应该是一个文件夹，其中包括了 Markdown 文档、可执行脚本和其他类型素材文件。
+根据标准定义，每个 Skill 都是一个规范化命名的文件夹，其中组合了 Markdown 文档、可执行脚本和其他类型素材文件。
 
 ![](assets/skills-sketch.png)
 
@@ -62,30 +62,34 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
 
-安装 Agent Skills，只需要将 Skill 文件夹放入对应的目录即可。也可以使用 Vercel 官方出品的 [add-skill](https://github.com/vercel-labs/add-skill) 工具通过命令行快速添加，如果有多 Coding CLI 同步需求，还可以使用 [skillshare](https://github.com/runkids/skillshare) 进行统一管理。
+安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills` 命令行工具快速添加，具体参数可见 [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill)。
 
-![](assets/skills_path.png)
 
-### CLI 工具
-
--   [Anthropic/Claude Code](https://claude.com/skills)： 在 Claude Code 中使用 Skills 的说明文档
--   [OpenAI/Codex](https://developers.openai.com/codex/skills/)： 在 Codex 中使用 Skills 的说明文档
--   [Google/Gemini CLI](https://geminicli.com/docs/cli/skills/)： 在 Gemini Cli 中使用 Skills 的说明文档
-
-### IDE 工具
-
--   [OpenCode](https://opencode.ai/docs/skills/)：在 OpenCode 中使用 Agent Skills 的说明文档
--   [VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)：在 VS Code 中使用 Agent Skills 的说明文档
--   [Antigravity](https://antigravity.google/docs/skills)：在 Antigravity 中使用 Skills 的说明文档
--   [Cursor](https://cursor.com/cn/docs/context/skills)：在 Cursor 中使用 Agent Skills 的说明文档
+| 工具               | 项目路径            | 全局路径                        | 官方文档                                                                                    |
+| ------------------ | ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Amp**            | `.agents/skills/`   | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
+| **Antigravity**    | `.agent/skills/`    | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
+| **Clawdbot**       | `./skills/`         | `~/.clawdbot/skills/`           | [Clawdbot Skills](https://docs.clawd.bot/tools/skills)                                      |
+| **Claude Code**    | `.claude/skills/`   | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
+| **Codex**          | `.codex/skills/`    | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
+| **Cursor**         | `.cursor/skills/`   | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
+| **Droid/Factory**  | `.factory/skills/`  | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
+| **Gemini CLI**     | `.gemini/skills/`   | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
+| **GitHub Copilot** | `.github/skills/`   | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
+| **Goose**          | `.goose/skills/`    | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
+| **Kilo Code**      | `.kilocode/skills/` | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
+| **OpenCode**       | `.opencode/skill/`  | `~/.config/opencode/skill/`     | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
+| **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
+| **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
 
 ## 技能商店
 
 [![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-推荐使用 [skillsmp](https://skillsmp.com/zh) 在线商店。该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行了整理。
+[skillsmp](https://skillsmp.com/zh) 是目前收录最全更新最快的 Skills 商店，该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行了整理。
 
-其他特色 Agent Skills 商店：
+其他特色 Agent Skills 商店还有：
+
 -   [SkillStore](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
 -   [agentskills.me](https://agentskills.me/)：提供 Skill 开发者分成机制的商店
 -   [skills.rest](https://skills.rest/)：提供 Skill 评分的商店
@@ -99,17 +103,18 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 ### 文档处理
 
 -   [docx](https://github.com/anthropics/skills/tree/main/skills/docx)：创建、编辑和分析 Word 文档，支持修订、评论、格式保留和文本提取
--   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)：全面的 PDF 操作工具包，用于提取文本和表格、创建新 PDF、合并/拆分文档以及处理表单
 -   [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)：创建、编辑和分析 PowerPoint 演示文稿，支持布局、模板、图表和自动幻灯片生成
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)：创建、编辑和分析 Excel 电子表格，支持公式、格式、数据分析和可视化
+-   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)：全面的 PDF 操作工具包，用于提取文本和表格、创建新 PDF、合并/拆分文档以及处理表单
 
 ### 编程辅助
 
 -   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方 Skills 集合
 -   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 官方出品的编程 Skills 集合
--   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): 涵盖完整编程项目工作流程的 Skills 集合
+-   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
+-   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现长期 Plan 效果的 Skill
 
 ### 产品使用
 
@@ -119,26 +124,20 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 -   [huggingface/skills](https://github.com/huggingface/skills)：使用 Skill 在 HuggingFace 训练大模型
 -   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 发布 X 文章的 Skill
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
-
-### 其他类型
-
 -   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉老师的自用 SKills 集合，包括自动发公众号功能等
 -   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：黄佬使用 Skill 生成和优化文生图提示词
 -   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills)：歸藏制作的基于 NanoBanana 生成 PPT 的 Skill
--   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现类 Manus 效果的 Skill
+
+### 其他类型
+
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
 ## 配套工具
 
+-   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): 自动化抓取文档网站、GitHub 仓库和 PDF 文件转换为 Agent Skills
+-   [openskills](https://github.com/numman-ali/openskills): Skills 全局加载工具，支持多种 Agent 平台
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard)：Agent skills 可视化管理+精选仓库+安全扫描
 -   [skillmaster](https://github.com/davidyangcool/agent-skill)：通过终端管理、安装和使用 Agent Skills
--   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): 自动化抓取文档网站、GitHub 仓库和 PDF 文件转换为 Agent Skills
-
-## 待审查资源
-
-> ⚠️ 警告：以下资源尚未经过严格审查，可能存在质量参差不齐的情况。
-
-- [skild.sh](https://skild.sh/)：一个基于命令行的 Agent Skills 安装、管理和发布工具
   
 ## 权威资料
 
