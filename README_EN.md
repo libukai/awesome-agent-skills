@@ -164,5 +164,7 @@ Anthropic provides extensive Agent Skills tutorials in their official blog. The 
 
 ![](assets/talk_is_cheap.jpg)
 
+## Project History
+
 [![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)
 
