@@ -163,3 +163,5 @@ Anthropic は公式ブログで豊富な Agent Skills 関連チュートリア�
 ## 謝辞
 
 ![](assets/talk_is_cheap.png)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)

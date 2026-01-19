@@ -163,3 +163,5 @@ Anthropic 在官方博客中提供了丰富的 Agent Skills 相关教程，推�
 ## 致谢
 
 ![](assets/talk_is_cheap.png)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)
