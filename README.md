@@ -26,9 +26,9 @@
 
 </div>
 
-本项目致力于收集和分享最优质的 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
+本项目致力于收集和分享最优质的 Skills 教程、案例和实践，帮助更多人轻松迈出搭建 Agent 的第一步。
 
-> 欢迎关注我的 🐦‍⬛ 账号 [@李不凯正在研究](https://x.com/libukai) ，即时获取 Agent Skills 的最新资讯和实用教程！
+> 欢迎关注我的 𝕏 账号 [@李不凯正在研究](https://x.com/libukai) ，即时获取 Agent Skills 的最新资讯和实用教程！
 
 ## 快速入门
 

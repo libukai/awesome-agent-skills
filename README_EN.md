@@ -26,9 +26,9 @@ English | [日本語](README_JA.md) | [简体中文](README.md)
 
 </div>
 
-This project is dedicated to collecting and sharing the finest Chinese-language Agent Skills tutorials, case studies, and best practices. Contributions are welcome via Issues.
+This project is dedicated to collecting and sharing the finest Skills tutorials, case studies, and best practices, helping more people easily take their first step in building Agents.
 
-> Follow me on 🐦‍⬛ [@libukai](https://x.com/libukai) for the latest news and practical tutorials about Agent Skills!
+> Follow me on 𝕏 [@libukai](https://x.com/libukai) for the latest news and practical tutorials about Agent Skills!
 
 ## Quick Start
 
