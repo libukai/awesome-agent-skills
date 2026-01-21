@@ -68,7 +68,9 @@ According to the standard, each Skill is a standardized named folder that combin
 
 The Agent Skills open standard has been adopted by leading AI companies including OpenAI, Google, Microsoft, and Cursor, quickly becoming standard in mainstream AI programming tools.
 
-To install Agent Skills, simply place the Skill folder in the appropriate path. You can also use the `npx skills` CLI tool from Vercel for quick installation. For parameters, see [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill).
+To install Agent Skills, simply place the Skill folder in the appropriate path. You can also use the `npx skills add <owner/repo>` CLI tool from Vercel for quick installation. For parameters, see [npmjs/skills](https://www.npmjs.com/package/skills).
+
+Meanwhile, Vercel has released the companion [skills.sh](https://skills.sh/) Skills marketplace, featuring a comprehensive collection of quality programming Skills.
 
 
 | Tool               | Project Path        | Global Path                     | Documentation                                                                               |
@@ -104,6 +106,7 @@ As the Agent Skills standard becomes more widespread, an increasing number of co
 
 Other featured Agent Skills marketplaces:
 
+-   [skills.sh](https://skills.sh/): Curated Skills marketplace from Vercel
 -   [SkillStore](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
 -   [agentskills.me](https://agentskills.me/): Marketplace offering developer revenue sharing
 -   [skills.rest](https://skills.rest/): Marketplace with Skill rating system

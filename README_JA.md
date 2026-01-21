@@ -68,7 +68,9 @@ Agent Skills は Anthropic が維持する[オープン標準](https://agentskil
 
 Agent Skills オープン標準は、OpenAI、Google、Microsoft、Cursor などの主要な AI 企業に採用され、主流の AI プログラミングツールの標準機能となっています。
 
-Agent Skills をインストールするには、Skill フォルダを適切なパスに配置するだけです。Vercel 公式の `npx skills` CLI ツールを使用して迅速にインストールすることもできます。パラメータについては [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) を参照してください。
+Agent Skills をインストールするには、Skill フォルダを適切なパスに配置するだけです。Vercel 公式の `npx skills add <owner/repo>` コマンドラインツールを使用して迅速にインストールすることもできます。パラメータについては [npmjs/skills](https://www.npmjs.com/package/skills) を参照してください。
+
+同時に、Vercel は配套の [skills.sh](https://skills.sh/) Skills 精選ストアをリリースしました。高品質なプログラミング Skills を網羅しています。
 
 
 | ツール             | プロジェクトパス    | グローバルパス                  | ドキュメント                                                                                |
@@ -104,6 +106,7 @@ Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のイ�
 
 その他の特徴的な Agent Skills マーケットプレイス:
 
+-   [skills.sh](https://skills.sh/): Vercel 公式の Skills 精選ストア
 -   [SkillStore](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
 -   [agentskills.me](https://agentskills.me/): 開発者への収益分配機能を提供するマーケットプレイス
 -   [skills.rest](https://skills.rest/): Skill 評価システムを備えたマーケットプレイス
