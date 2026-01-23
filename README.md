@@ -40,22 +40,11 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 ## 教程合集
 
-### 喂饭教程
+### 图文教程
 
 -   [@一泽 Eze：Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [@王树义：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
--   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)
-
-### 进阶教程
-
--   [@宝玉：五步框架把 Workflow 变成可进化的 Skill](https://x.com/dotey/status/2010176124450484638)
--   [@歸藏：带动效的 PPT 生成 Agent！使用教学&创作思路](https://x.com/op7418/status/2010979152284041401)
-
-### 深度分析
-
--   [@凡人小北：中推圈都在教怎么写 Skill，但你可能正在重复 MCP 的错误](https://x.com/frxiaobei/status/2011075599083995566)
 -   [@deeptoai：Claude Agent Skills 第一性原理深度解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
--   [@宝玉：Claude Code 的"懒加载"更新：AI 终于学会了"随叫随到"](https://x.com/dotey/status/2011660434516873264)
+-   [@歸藏：带动效的 PPT 生成 Agent！使用教学&创作思路](https://x.com/op7418/status/2010979152284041401)
 
 ### 视频教程
 
@@ -69,14 +58,11 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 
 安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数参见 [npmjs/skills](https://www.npmjs.com/package/skills)。
 
-与此同时，Vercel 配套发布了 [skills.sh](https://skills.sh/) Skills 精选商店，优质编程类 Skills 可谓一网打尽。 
-
 
 | 工具               | 项目路径            | 全局路径                        | 官方文档                                                                                    |
 | ------------------ | ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Amp**            | `.agents/skills/`   | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
 | **Antigravity**    | `.agent/skills/`    | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
-| **Clawdbot**       | `./skills/`         | `~/.clawdbot/skills/`           | [Clawdbot Skills](https://docs.clawd.bot/tools/skills)                                      |
 | **Claude Code**    | `.claude/skills/`   | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
 | **Codex**          | `.codex/skills/`    | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
 | **Cursor**         | `.cursor/skills/`   | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
@@ -85,17 +71,19 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 | **GitHub Copilot** | `.github/skills/`   | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
 | **Goose**          | `.goose/skills/`    | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
 | **Kilo Code**      | `.kilocode/skills/` | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
+| **Kimi CLI**       | `.kimi/skills/`     | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
 | **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
+| **Qwen Code**      | `.qwen/skills/`     | `~/.qwen/skills/`               | [Qwen Code Skills](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)       |
 | **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
-| **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+| **Trae**           | `.trae/skills/`     | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
+| **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
 ## 对话工具
 
 随着 Agent Skills 标准的普及，越来越多的对话式 AI 工具也开始支持 Skill 的安装和使用，用户可以通过添加 Skill 来扩展助手/智能体的能力，实现更复杂的任务处理。
 
--   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill)：技能使用说明
--   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)：Agent Skills 最佳实践
--   [Alma](https://alma.now/docs/zh/features/skills.html)：Skills 使用说明
+-   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill)： Coze 2.0 新增技能功能使用说明
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)：在 Cherry Studio 中通过 Agent 使用 Skill 最佳实践
 
 ## 技能商店
 
@@ -105,10 +93,9 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 
 其他特色 Agent Skills 商店还有：
 
--   [skills.sh](https://skills.sh/)：Vercel 出品的 Skills 精选商店
+-   [skills.sh](https://skills.sh/)：Vercel 出品的 Skills 排行榜
 -   [SkillStore](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
--   [agentskills.me](https://agentskills.me/)：提供 Skill 开发者分成机制的商店
--   [skills.rest](https://skills.rest/)：提供 Skill 评分的商店
+-   [agentskills.me](https://agentskills.me/)：提供了云端 Skill 运行环境的商店
 
 ## 精选技能
 
@@ -133,7 +120,8 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 ### 编程辅助
 
 -   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方 Skills 集合
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 官方出品的编程 Skills 集合
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 官方出品的编程 React Skills 集合
+-   [hyf0/vue-skills](https://github.com/hyf0/vue-skills)：面向 Vue.js 开发的 Skills 集合
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
