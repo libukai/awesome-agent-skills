@@ -189,3 +189,13 @@ Anthropic 在官方博客中提供了丰富的 Agent Skills 相关教程，推�
 ## 项目历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)
+
+
+### Web Research Skills
+- [context7-auto-research](https://github.com/BenedictKing/context7-auto-research) - 自动获取最新库/框架文档
+- [tavily-web](https://github.com/BenedictKing/tavily-web) - Web 搜索、提取、爬取
+- [exa-search](https://github.com/BenedictKing/exa-search) - 语义搜索
+- [firecrawl-scraper](https://github.com/BenedictKing/firecrawl-scraper) - 深度网页抓取
+
+### Code Quality Skills
+- [codex-review](https://github.com/BenedictKing/codex-review) - 专业代码审查
