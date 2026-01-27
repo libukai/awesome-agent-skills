@@ -64,6 +64,7 @@ Additionally, you can use the [skillsmp](https://skillsmp.com/zh) marketplace, w
 
 Other featured Agent Skills marketplaces:
 
+-   [context7](https://context7.com/?tab=skills): Skill marketplace based on Context7
 -   [skillstore.io](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
 -   [agentskills.me](https://agentskills.me/): Marketplace offering cloud-based Skill runtime environments
 -   [skills.rest](https://skills.rest/): Marketplace providing Skill analysis and security reviews
@@ -87,11 +88,12 @@ It is recommended to use Vercel's official `npx skills add <owner/repo>` CLI too
 | **Antigravity**    | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
 | **Claude Code**    | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
 | **Codex**          | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
-| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
+| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/cn/docs/context/skills)                                  |
 | **CodeBuddy**      | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
 | **Droid/Factory**  | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
 | **Gemini CLI**     | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
 | **GitHub Copilot** | `.github/skills/`    | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
+| **VS Code**        | `.github/skills/`    | `~/.copilot/skills/`            | [VS Code Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills)     |
 | **Goose**          | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
 | **Kilo Code**      | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
 | **Kimi CLI**       | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
@@ -125,13 +127,19 @@ As the Agent Skills standard becomes more widespread, an increasing number of co
 ### Official Projects
 
 -   [anthropics/skills](https://github.com/anthropics/skills): Skills collection from Anthropic
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): React Skills collection from Vercel
+-   [better-auth/skills](https://github.com/better-auth/skills): Authentication tools Skills collection from Better Auth
+-   [black-forest-labs/skills](https://github.com/black-forest-labs/skills): Skills collection for controlling FLUX models from Black Forest Labs
 -   [expo/skills](https://github.com/expo/skills): React Native Skills collection from Expo
--   [supabase/agent-skills](https://github.com/supabase/agent-skills): PostgreSQL best practices from Supabase
--   [remotion-dev/skills](https://github.com/remotion-dev/skills): Create video content using Remotion
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Multi-functional Skills collection from Dify
 -   [huggingface/skills](https://github.com/huggingface/skills): Skills for training large models from HuggingFace
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Skills collection for enhancing Obsidian functionality from Obsidian CEO
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Multi-functional Skills collection from Dify
+-   [microsoft/agent-skills](https://github.com/microsoft/agent-skills): Agent Skills collection for Azure services from Microsoft
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills): Create video content using Remotion
+-   [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills): Stitch Skills collection from Google Labs
+-   [stripe/ai](https://github.com/stripe/ai): Financial payment related Skills collection from Stripe
+-   [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit/tree/main/skills): Content management platform Skills collection from Sanity
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills): PostgreSQL best practices from Supabase
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): React Skills collection from Vercel
 
 
 ### Content Creation
@@ -157,10 +165,12 @@ As the Agent Skills standard becomes more widespread, an increasing number of co
 
 ### Other Types
 
+-   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): Skills collection for marketing
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Skills collection for scientific researchers
 
 ## Supporting Tools
 
+-   [context7 cli](https://context7.com/docs/skills#skills): Manage and use Agent Skills with context7 cli command-line tool
 -   [openskills](https://github.com/numman-ali/openskills): Global Skills loading tool supporting multiple Agent platforms
 -   [skild.sh](https://skild.sh/): CLI tool for installing, managing, and syncing Skills across multiple tools
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills visualization management + curated repo + security scanning

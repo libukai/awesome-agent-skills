@@ -64,6 +64,7 @@ Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使�
 
 その他の特徴的な Agent Skills マーケットプレイス:
 
+-   [context7](https://context7.com/?tab=skills): Context7 ベースの Skill マーケットプレイス
 -   [skillstore.io](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
 -   [agentskills.me](https://agentskills.me/): クラウドベースの Skill 実行環境を提供するマーケットプレイス
 -   [skills.rest](https://skills.rest/): Skill 分析とセキュリティレビューを提供するマーケットプレイス
@@ -87,11 +88,12 @@ Vercel 公式の `npx skills add <owner/repo>` コマンドラインツールを
 | **Antigravity**    | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
 | **Claude Code**    | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
 | **Codex**          | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
-| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
+| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/cn/docs/context/skills)                                  |
 | **CodeBuddy**      | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
 | **Droid/Factory**  | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
 | **Gemini CLI**     | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
 | **GitHub Copilot** | `.github/skills/`    | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
+| **VS Code**        | `.github/skills/`    | `~/.copilot/skills/`            | [VS Code Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills)     |
 | **Goose**          | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
 | **Kilo Code**      | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
 | **Kimi CLI**       | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
@@ -125,13 +127,19 @@ Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のイ�
 ### 公式プロジェクト
 
 -   [anthropics/skills](https://github.com/anthropics/skills): Anthropic 公式 Skills コレクション
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): Vercel 公式 React Skills コレクション
+-   [better-auth/skills](https://github.com/better-auth/skills): Better Auth 公式の認証ツール Skills コレクション
+-   [black-forest-labs/skills](https://github.com/black-forest-labs/skills): Black Forest Labs 公式の FLUX モデル制御用 Skills コレクション
 -   [expo/skills](https://github.com/expo/skills): Expo 公式 React Native Skills コレクション
--   [supabase/agent-skills](https://github.com/supabase/agent-skills): Supabase 公式 PostgreSQL ベストプラクティス
--   [remotion-dev/skills](https://github.com/remotion-dev/skills): Remotion 公式 Remotion を使用した動画コンテンツ作成
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Dify 公式の多機能 Skills コレクション
 -   [huggingface/skills](https://github.com/huggingface/skills): HuggingFace 公式 Skill を使用した大規模モデルのトレーニング
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Obsidian CEO 公式 Obsidian 機能拡張用 Skills コレクション
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Dify 公式の多機能 Skills コレクション
+-   [microsoft/agent-skills](https://github.com/microsoft/agent-skills): Microsoft 公式の Azure サービス向け Agent Skills コレクション
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills): Remotion 公式 Remotion を使用した動画コンテンツ作成
+-   [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills): Google Labs 公式の Stitch Skills コレクション
+-   [stripe/ai](https://github.com/stripe/ai): Stripe 公式の金融決済関連 Skills コレクション
+-   [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit/tree/main/skills): Sanity 公式のコンテンツ管理プラットフォーム Skills コレクション
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills): Supabase 公式 PostgreSQL ベストプラクティス
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): Vercel 公式 React Skills コレクション
 
 
 ### コンテンツ作成
@@ -157,10 +165,12 @@ Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のイ�
 
 ### その他のタイプ
 
+-   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): マーケティング向け Skills コレクション
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): 科学研究者向け Skills コレクション
 
 ## サポートツール
 
+-   [context7 cli](https://context7.com/docs/skills#skills): context7 cli コマンドラインツールを使用して Agent Skills を管理・使用
 -   [openskills](https://github.com/numman-ali/openskills): 複数の Agent プラットフォームをサポートするグローバル Skills ローディングツール
 -   [skild.sh](https://skild.sh/): 複数のツールで Skills をインストール、管理、同期するための CLI ツール
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills の視覚的管理 + 厳選リポジトリ + セキュリティスキャン

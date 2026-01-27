@@ -64,6 +64,7 @@ Agent Skills 是一个由 Anthropic 牵头维护的 [开放标准](https://agent
 
 其他特色 Agent Skills 商店还有：
 
+-   [context7](https://context7.com/?tab=skills)：基于 Context7 的 Skill 商店
 -   [skillstore.io](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
 -   [agentskills.me](https://agentskills.me/)：提供了云端 Skill 运行环境的商店
 -   [skills.rest](https://skills.rest/)：提供 Skill 分析和安全审查的商店
@@ -78,28 +79,28 @@ Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地�
 
 要在编程工具中安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。
 
-建议使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数参见 [npmjs/skills](https://www.npmjs.com/package/skills)。
+建议使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速发现和添加 skill，具体参数详见 [npmjs/skills](https://www.npmjs.com/package/skills)。
 
 
-| 工具               | 项目路径             | 全局路径                        | 官方文档                                                                                    |
-| ------------------ | -------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Amp**            | `.agents/skills/`    | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
-| **Antigravity**    | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
-| **Claude Code**    | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
-| **Codex**          | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
-| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
-| **CodeBuddy**      | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
-| **Droid/Factory**  | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
-| **Gemini CLI**     | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
-| **GitHub Copilot** | `.github/skills/`    | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
-| **Goose**          | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
-| **Kilo Code**      | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
-| **Kimi CLI**       | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
-| **OpenCode**       | `.opencode/skills/`  | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
-| **Qwen Code**      | `.qwen/skills/`      | `~/.qwen/skills/`               | [Qwen Code Skills](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)       |
-| **Roo Code**       | `.roo/skills/`       | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
-| **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
-| **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
+| 工具              | 项目路径             | 全局路径                        | 官方文档                                                                                    |
+| ----------------- | -------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Amp**           | `.agents/skills/`    | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
+| **Antigravity**   | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
+| **Claude Code**   | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
+| **Codex**         | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
+| **Cursor**        | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/cn/docs/context/skills)                                  |
+| **CodeBuddy**     | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
+| **Droid/Factory** | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
+| **Gemini CLI**    | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
+| **Goose**         | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
+| **Kilo Code**     | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
+| **Kimi CLI**      | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
+| **OpenCode**      | `.opencode/skills/`  | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
+| **Qwen Code**     | `.qwen/skills/`      | `~/.qwen/skills/`               | [Qwen Code Skills](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)       |
+| **Roo Code**      | `.roo/skills/`       | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
+| **Trae**          | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
+| **VS Code**       | `.github/skills/`    | `~/.copilot/skills/`            | [VS Code Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills)     |
+| **Windsurf**      | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
 ### 对话工具
 
@@ -127,13 +128,19 @@ Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地�
 ### 官方项目
 
 -   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 出品的 Skills 集合
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 出品的 React Skills 集合
+-   [better-auth/skills](https://github.com/better-auth/skills)：Better Auth 出品的认证工具 Skills 集合
+-   [black-forest-labs/skills](https://github.com/black-forest-labs/skills)：Black Forest Labs 出品的操控 FLUX 模型的 Skills 集合
 -   [expo/skills](https://github.com/expo/skills)：Expo 出品的 React Native Skills 集合
--   [supabase/agent-skills](https://github.com/supabase/agent-skills)：Supabase 出品的 PostgreSQL 最佳实践
--   [remotion-dev/skills](https://github.com/remotion-dev/skills)：Remotion 出品的使用 Remotion 创建视频内容 
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills)：Dify 出品的多功能 Skills 集合
 -   [huggingface/skills](https://github.com/huggingface/skills)：HuggingFace 出品使用 Skill 训练大模型
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：Obsidian CEO 出品增强 Obsidian 功能的 Skills 集合
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills)：Dify 出品的多功能 Skills 集合
+-   [microsoft/agent-skills](https://github.com/microsoft/agent-skills)：Microsoft 出品用于 Azure 服务的 Agent Skills 集合
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills)：Remotion 出品的使用 Remotion 创建视频内容
+-   [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)：Google Labs 出品的 Stitch Skills 集合
+-   [stripe/ai](https://github.com/stripe/ai): Stripe 出品的金融支付相关 Skills 集合
+-   [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit/tree/main/skills)：Sanity 出品的内容管理平台 Skills 集合
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills)：Supabase 出品的 PostgreSQL 最佳实践
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 出品的 React Skills 集合
 
 
 ### 内容创作
@@ -159,10 +166,12 @@ Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地�
 
 ### 其他类型
 
+-   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
 ## 配套工具
 
+-   [context7 cli](https://context7.com/docs/skills#skills)：使用 context7 cli 命令行工具管理和使用 Agent Skills
 -   [openskills](https://github.com/numman-ali/openskills): Skills 全局加载工具，支持多种 Agent 工具
 -   [skild.sh](https://skild.sh/)：在多个工具中安装、管理和同步 Skills 的命令行工具
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard)：Agent skills 可视化管理+精选仓库+安全扫描
