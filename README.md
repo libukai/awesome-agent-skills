@@ -157,6 +157,7 @@ Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地�
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
 -   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现长期 Plan 效果的 Skill
 -   [hyf0/vue-skills](https://github.com/hyf0/vue-skills)：面向 Vue.js 开发的 Skills 集合
+-   [dragon1086/claude-skills](https://github.com/dragon1086/claude-skills)：分析提示词并推荐最佳工具、技能、代理和编排模式的 Skill
 
 ### 产品使用
 
