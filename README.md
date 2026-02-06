@@ -125,6 +125,7 @@ Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地�
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)：创建和编辑 Excel 的 Skill
 -   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)：创建和编辑 PDF 的 Skill
 
+-   [RioTheGreat-ai/agentfund-skill](https://github.com/RioTheGreat-ai/agentfund-skill): Crowdfunding for AI agents with milestone-based escrow on Base
 ### 官方项目
 
 -   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 出品的 Skills 集合
