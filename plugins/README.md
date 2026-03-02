@@ -2,9 +2,14 @@
 
 这个目录包含了 Awesome Agent Skills Marketplace 中的所有 Claude Code plugins。
 
-## Skill Creator
+## Agent Skills Toolkit
 
-**skill-creator** 是一个完整的工具集，帮助你创建、改进和测试高质量的 Agent Skills。
+**Agent Skills Toolkit** 是一个完整的工具集，帮助你创建、改进和测试高质量的 Agent Skills。
+
+包含内容：
+- 🎯 **skill-creator-pro**：增强版的 skill creator，基于官方版本改进
+- ⚡ **4 个快捷命令**：快速启动特定功能
+- 📝 **中文优化文档**：针对中文用户的使用说明
 
 ### 功能特性
 
@@ -15,10 +20,20 @@
 
 ### 使用方法
 
-安装后，使用以下命令：
+安装后，可以使用以下命令：
 
+**主命令：**
 ```bash
-/skill-creator:skill-creator
+/agent-skills-toolkit:skill-creator-pro
+```
+完整的 skill 创建和改进工作流程（增强版）
+
+**快捷命令：**
+```bash
+/agent-skills-toolkit:create-skill          # 创建新 skill
+/agent-skills-toolkit:improve-skill         # 改进现有 skill
+/agent-skills-toolkit:test-skill            # 测试和评估 skill
+/agent-skills-toolkit:optimize-description  # 优化 skill 描述
 ```
 
 ### 适用场景

@@ -5,14 +5,14 @@
     "email": "likai@example.com"
   },
   "metadata": {
-    "description": "帮助你创建、改进和测试高质量 Agent Skills 的专业工具集",
+    "description": "Agent Skills Toolkit - 帮助你创建、改进和测试高质量 Agent Skills 的专业工具集",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "skill-creator",
-      "source": "./plugins/skill-creator",
-      "description": "创建新 skills、改进现有 skills、运行评估测试和性能基准测试的完整工具集",
+      "name": "agent-skills-toolkit",
+      "source": "./plugins/agent-skills-toolkit",
+      "description": "Agent Skills Toolkit - 创建新 skills、改进现有 skills、运行评估测试和性能基准测试的完整工具集，包含增强版 skill-creator-pro 和快捷命令",
       "version": "1.0.0",
       "author": {
         "name": "likai",
@@ -21,6 +21,19 @@
       "homepage": "https://github.com/likai/awesome-agentskills",
       "category": "productivity",
       "tags": ["skill-creation", "agent-skills", "development"]
+    },
+    {
+      "name": "vscode-extensions-toolkit",
+      "source": "./plugins/vscode-extensions-toolkit",
+      "description": "VSCode Extensions Toolkit - 配置 VSCode 扩展的完整工具集，包含 httpYac API 测试、Port Monitor 端口监控、SFTP 静态网站部署",
+      "version": "1.0.0",
+      "author": {
+        "name": "likai",
+        "email": "likai@example.com"
+      },
+      "homepage": "https://github.com/likai/awesome-agentskills",
+      "category": "development",
+      "tags": ["vscode", "extensions", "api-testing", "deployment"]
     }
   ]
 }

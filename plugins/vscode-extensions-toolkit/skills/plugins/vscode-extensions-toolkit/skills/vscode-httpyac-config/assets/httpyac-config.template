@@ -1,0 +1,14 @@
+{
+  "log": {
+    "level": 5,
+    "supportAnsiColors": true
+  },
+  "request": {
+    "timeout": 30000,
+    "https": {
+      "rejectUnauthorized": true
+    }
+  },
+  "cookieJarEnabled": true
+}
+

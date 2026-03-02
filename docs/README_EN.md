@@ -198,9 +198,9 @@ This project provides a Claude Code Plugin Marketplace focused on Skill creation
 
 ### Available Plugins
 
-#### Skill Creator
+#### Agent Skills Toolkit
 
-A complete Skill creation toolkit with the following features:
+A complete Agent Skills toolkit with enhanced skill-creator-pro and quick commands:
 
 - ✨ **Create New Skills**: Build professional skills from scratch
 - 🔧 **Improve Existing Skills**: Optimize and update your skills
@@ -210,9 +210,14 @@ A complete Skill creation toolkit with the following features:
 ### Installation and Usage
 
 1. After adding the marketplace, open the `/plugin` command
-2. Find "Skill Creator" in the Discover tab
+2. Find "Agent Skills Toolkit" in the Discover tab
 3. Select installation scope (User/Project/Local) and install
-4. Use `/skill-creator:skill-creator` command to start creating skills
+4. Use the following commands:
+   - `/agent-skills-toolkit:skill-creator-pro` - Complete workflow (Enhanced)
+   - `/agent-skills-toolkit:create-skill` - Create new skill
+   - `/agent-skills-toolkit:improve-skill` - Improve existing skill
+   - `/agent-skills-toolkit:test-skill` - Test and evaluate skill
+   - `/agent-skills-toolkit:optimize-description` - Optimize description
 
 For more details, see the [plugins directory](plugins/).
 

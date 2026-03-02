@@ -1,9 +1,9 @@
 ---
-name: skill-creator
-description: Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. Triggers on phrases like "make a skill", "create a new skill", "build a skill for", "improve this skill", "optimize my skill", "test my skill", "turn this into a skill", "skill description optimization", or "help me create a skill".
+name: skill-creator-pro
+description: Create new skills, modify and improve existing skills, and measure skill performance. Enhanced version with quick commands. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. Triggers on phrases like "make a skill", "create a new skill", "build a skill for", "improve this skill", "optimize my skill", "test my skill", "turn this into a skill", "skill description optimization", or "help me create a skill".
 ---
 
-# Skill Creator
+# Skill Creator Pro
 
 A skill for creating new skills and iteratively improving them.
 
