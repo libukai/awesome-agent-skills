@@ -4,6 +4,10 @@ description: Use this skill whenever users need visual diagrams, flowcharts, arc
 
 # tldraw Desktop Canvas API
 
+**⚠️ CRITICAL: READ THIS ENTIRE SKILL DOCUMENT BEFORE USING THE API**
+
+This is a newly developed feature. You MUST carefully read and follow ALL instructions in this skill document before making any API calls. DO NOT guess or assume API usage patterns. Every API endpoint, parameter format, and workflow step is documented here - follow them exactly.
+
 When users need to understand complex information, visualize processes, or communicate ideas, diagrams are often more effective than text alone. This skill enables you to create professional diagrams programmatically using tldraw Desktop's Local Canvas API.
 
 ## Why Use This Skill
@@ -61,6 +65,13 @@ Before creating shapes, think about:
 **Why planning matters:** Random placement creates messy diagrams. A 30-second mental plan saves minutes of repositioning.
 
 ### Step 4: Create Shapes Incrementally
+
+**⚠️ IMPORTANT API USAGE RULES:**
+1. **Always use JSON files** - Never use inline JSON in curl commands due to escaping issues
+2. **Use the correct endpoint** - `POST /api/doc/:id/actions` (NOT `/api/doc/:id/exec` unless specifically needed)
+3. **Include all required fields** - Every shape needs `_type`, `shapeId`, position, size, and `note: ""`
+4. **Use heredoc syntax** - `cat > /tmp/file.json << 'EOF'` to avoid variable expansion
+5. **Reference with @filename** - `curl -d @/tmp/file.json` to send the file content
 
 Use JSON files to avoid shell escaping issues:
 
@@ -260,29 +271,48 @@ curl -s "http://localhost:7236/api/doc/$DOC_ID/screenshot?size=medium\" -o /tmp/
 
 ## Common Mistakes to Avoid
 
+**⚠️ READ THIS SECTION CAREFULLY - These are the most common errors:**
+
 1. **Creating shapes without checking for documents first**
    - Always run `GET /api/doc` before creating shapes
    - If no documents exist, ask the user to create one
+   - **Why it fails:** API returns "Not found" if no document is open
 
 2. **Not taking screenshots to verify**
    - The API returns success even if shapes are off-screen
    - Always take a screenshot after creating shapes
+   - **Why it matters:** Visual verification catches positioning issues immediately
 
-3. **Using inline JSON in bash**
-   - Shell escaping is error-prone
-   - Use JSON files with `@/tmp/file.json` instead
+3. **Using inline JSON in bash (CRITICAL ERROR)**
+   - Shell escaping is error-prone and causes API failures
+   - **ALWAYS use JSON files** with `cat > /tmp/file.json << 'EOF'` and `curl -d @/tmp/file.json`
+   - **Never use:** `-d '{"actions": [...]}'` with inline JSON
+   - **Why it fails:** Special characters, quotes, and emojis break shell escaping
 
-4. **Random positioning**
+4. **Using wrong API endpoints**
+   - **Correct:** `POST /api/doc/:id/actions` for creating shapes
+   - **Wrong:** `POST /api/doc/:id/exec` (only for advanced JavaScript execution)
+   - **Why it matters:** The `/actions` endpoint is designed for structured shape creation
+
+5. **Missing required fields in shape definitions**
+   - Every shape MUST include: `_type`, `shapeId`, position/size, `note: ""`
+   - Arrows need: `x1, y1, x2, y2` (NOT `start/end` objects)
+   - **Why it fails:** API rejects incomplete shape definitions
+
+6. **Random positioning**
    - Use multiples of 50 for x/y coordinates (100, 150, 200, etc.)
    - This creates clean alignment and professional-looking diagrams
+   - **Why it matters:** Consistent spacing makes diagrams readable
 
-5. **Forgetting to save the document ID**
-   - Extract and save `DOC_ID` at the start
+7. **Forgetting to save the document ID**
+   - Extract and save `DOC_ID` at the start: `DOC_ID=$(curl -s http://localhost:7236/api/doc | jq -r '.docs[0].id')`
    - Reuse it for all subsequent API calls
+   - **Why it fails:** Using wrong or missing ID causes "Not found" errors
 
-6. **Creating all shapes at once**
-   - Build incrementally: create a few shapes, verify, continue
+8. **Creating all shapes at once without verification**
+   - Build incrementally: create a few shapes, verify with screenshot, continue
    - This catches layout issues early
+   - **Why it matters:** Easier to debug and adjust when working in small batches
 
 ## Troubleshooting
 

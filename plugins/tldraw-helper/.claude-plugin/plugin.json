@@ -1,6 +1,6 @@
 {
 	"name": "tldraw-helper",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Helper plugin for programmatic drawing with tldraw Desktop via Local Canvas API. Use when users want to create diagrams, flowcharts, architecture diagrams, or visual content using tldraw.",
 	"author": {
 		"name": "libukai",
