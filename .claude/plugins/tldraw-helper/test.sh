@@ -30,7 +30,7 @@ fi
 echo "✅ Test 3: Required files"
 required_files=(
     "README.md"
-    "skills/tldraw-canvas-api.md"
+    "skills/tldraw-canvas-api/SKILL.md"
     "commands/draw.md"
     "commands/screenshot.md"
     "commands/list.md"
@@ -49,7 +49,7 @@ done
 
 # Test 4: Check frontmatter format
 echo "✅ Test 4: Frontmatter format"
-for file in .claude/plugins/tldraw-helper/{skills,commands,agents}/*.md; do
+for file in .claude/plugins/tldraw-helper/skills/*/SKILL.md .claude/plugins/tldraw-helper/{commands,agents}/*.md; do
     if head -1 "$file" | grep -q "^---$"; then
         echo "   ✓ $(basename $file) has valid frontmatter"
     else

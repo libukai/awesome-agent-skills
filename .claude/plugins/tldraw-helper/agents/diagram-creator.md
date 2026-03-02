@@ -1,5 +1,7 @@
 ---
+name: diagram-creator
 description: Autonomous agent for creating complex diagrams and visualizations with tldraw Desktop
+model: inherit
 color: blue
 tools:
   - Bash

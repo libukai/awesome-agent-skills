@@ -1,12 +1,6 @@
 ---
 description: Capture a screenshot of the current tldraw canvas
-args:
-  - name: size
-    description: Screenshot size (small, medium, large, full)
-    required: false
-  - name: output
-    description: Output file path
-    required: false
+argument-hint: "[size] [output]"
 ---
 
 # Take tldraw Screenshot

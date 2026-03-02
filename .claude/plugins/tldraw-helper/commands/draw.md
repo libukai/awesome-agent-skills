@@ -1,12 +1,6 @@
 ---
 description: Draw shapes and diagrams on tldraw canvas
-args:
-  - name: diagram_type
-    description: Type of diagram to create (flowchart, architecture, mindmap, sequence, etc.)
-    required: false
-  - name: description
-    description: Description of what to draw
-    required: false
+argument-hint: "[diagram_type] [description]"
 ---
 
 # Draw with tldraw
