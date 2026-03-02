@@ -57,6 +57,11 @@ Then install the plugin through the `/plugin` UI or:
 /agent-skills-toolkit:optimize-description my-skill
 ```
 
+**Check plugin integration:**
+```bash
+/agent-skills-toolkit:check-integration path/to/skill
+```
+
 ### Using the Full Skill (Recommended for Complex Workflows)
 
 For complete skill creation with all features:
@@ -82,6 +87,17 @@ The core skill provides:
 - **Evaluation Framework**: Qualitative and quantitative assessment tools
 - **Subagents**: Specialized agents for grading, analysis, and comparison
 - **Best Practices**: Comprehensive guidelines for skill development
+- **Plugin Integration Check**: Automatic verification of Command-Agent-Skill architecture
+
+### plugin-integration-checker
+
+New skill that automatically checks plugin integration:
+
+- **Automatic Detection**: Runs when skill is part of a plugin
+- **Three-Layer Verification**: Ensures Command → Agent → Skill pattern
+- **Architecture Scoring**: Rates integration quality (0.0-1.0)
+- **Actionable Recommendations**: Specific fixes with examples
+- **Documentation Generation**: Creates integration reports
 
 ### Quick Commands
 
@@ -93,6 +109,7 @@ Each command focuses on a specific task while leveraging skill-creator-pro's cap
 | `improve-skill` | Enhance existing skill | Refining or updating |
 | `test-skill` | Run evaluations and benchmarks | Validating functionality |
 | `optimize-description` | Improve triggering accuracy | Fine-tuning skill activation |
+| `check-integration` | Verify plugin architecture | After creating plugin skills |
 
 ## What's Enhanced in Pro Version
 
@@ -102,6 +119,7 @@ Compared to the official skill-creator:
 - 📝 **Better Documentation**: Clearer instructions and examples
 - 🎯 **Focused Workflows**: Streamlined processes for common tasks
 - 🌏 **Multilingual Support**: Documentation in multiple languages
+- 🔍 **Plugin Integration Check**: Automatic architecture verification
 
 ## Resources
 
@@ -111,6 +129,7 @@ Compared to the official skill-creator:
 - `references/constraints_and_rules.md` - Technical requirements
 - `references/quick_checklist.md` - Pre-publication validation
 - `references/schemas.md` - Skill schema reference
+- `PLUGIN_ARCHITECTURE.md` - Three-layer architecture guide for plugins
 
 ### Automation Scripts
 
@@ -134,8 +153,41 @@ Compared to the official skill-creator:
 1. Run `/agent-skills-toolkit:create-skill`
 2. Answer questions about intent and functionality
 3. Review generated SKILL.md
-4. Test with sample prompts
-5. Iterate based on feedback
+4. **Automatic plugin integration check** (if skill is in a plugin)
+5. Test with sample prompts
+6. Iterate based on feedback
+
+### Creating a Plugin Skill
+
+When creating a skill that's part of a plugin:
+
+1. Create the skill in `plugins/my-plugin/skills/my-skill/`
+2. **Integration check runs automatically**:
+   - Detects plugin context
+   - Checks for related commands and agents
+   - Verifies three-layer architecture
+   - Generates integration report
+3. Review integration recommendations
+4. Create/fix commands and agents if needed
+5. Test the complete workflow
+
+**Example Integration Check Output:**
+```
+🔍 Found plugin: my-plugin v1.0.0
+
+📋 Checking commands...
+Found: commands/do-task.md
+
+🤖 Checking agents...
+Found: agents/task-executor.md
+
+✅ Architecture Analysis
+- Command orchestrates workflow ✅
+- Agent executes autonomously ✅
+- Skill documents knowledge ✅
+
+Integration Score: 0.9 (Excellent)
+```
 
 ### Improving an Existing Skill
 
@@ -160,6 +212,8 @@ Compared to the official skill-creator:
 - **Iterate Often**: Refine based on real usage feedback
 - **Follow Guidelines**: Use bundled references for best practices
 - **Optimize Descriptions**: Make skills easy to trigger correctly
+- **Check Plugin Integration**: Ensure proper Command-Agent-Skill architecture
+- **Separate Concerns**: Commands orchestrate, Agents execute, Skills document
 
 ## Support
 

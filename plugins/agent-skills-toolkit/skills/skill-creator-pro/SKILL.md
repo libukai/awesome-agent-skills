@@ -166,6 +166,131 @@ Save test cases to `evals/evals.json`. Don't write assertions yet — just the p
 
 See `references/schemas.md` for the full schema (including the `assertions` field, which you'll add later).
 
+### Plugin Integration Check
+
+**IMPORTANT**: After writing the skill draft, check if this skill is part of a Claude Code plugin. If the skill path contains `.claude-plugins/` or `plugins/`, automatically perform a plugin integration check.
+
+#### When to Check
+
+Check plugin integration if:
+- Skill path contains `.claude-plugins/` or `plugins/`
+- User mentions "plugin", "command", or "agent" in context
+- You notice related commands or agents in the same directory structure
+
+#### What to Check
+
+1. **Detect Plugin Context**
+   ```bash
+   # Look for plugin.json in parent directories
+   SKILL_DIR="path/to/skill"
+   CURRENT_DIR=$(dirname "$SKILL_DIR")
+
+   while [ "$CURRENT_DIR" != "/" ]; do
+     if [ -f "$CURRENT_DIR/.claude-plugin/plugin.json" ]; then
+       echo "Found plugin at: $CURRENT_DIR"
+       break
+     fi
+     CURRENT_DIR=$(dirname "$CURRENT_DIR")
+   done
+   ```
+
+2. **Check for Related Components**
+   - Look for `commands/` directory - are there commands that should use this skill?
+   - Look for `agents/` directory - are there agents that should reference this skill?
+   - Search for skill name in existing commands and agents
+
+3. **Verify Three-Layer Architecture**
+
+   The plugin should follow this pattern:
+   ```
+   Command (Orchestration) → Agent (Execution) → Skill (Knowledge)
+   ```
+
+   **Command Layer** should:
+   - Check prerequisites (is service running?)
+   - Gather user requirements (use AskUserQuestion)
+   - Delegate complex work to agent
+   - Verify final results
+
+   **Agent Layer** should:
+   - Define clear capabilities
+   - Reference skill for API/implementation details
+   - Outline execution workflow
+   - Handle errors and iteration
+
+   **Skill Layer** should:
+   - Document API endpoints and usage
+   - Provide best practices
+   - Include examples
+   - Add troubleshooting guide
+   - NOT contain workflow logic (that's in commands)
+
+4. **Generate Integration Report**
+
+   If this skill is part of a plugin, generate a brief report:
+   ```markdown
+   ## Plugin Integration Status
+
+   Plugin: {name} v{version}
+   Skill: {skill-name}
+
+   ### Related Components
+   - Commands: {list or "none found"}
+   - Agents: {list or "none found"}
+
+   ### Architecture Check
+   - [ ] Command orchestrates workflow
+   - [ ] Agent executes autonomously
+   - [ ] Skill documents knowledge
+   - [ ] Clear separation of concerns
+
+   ### Recommendations
+   {specific suggestions if integration is incomplete}
+   ```
+
+5. **Offer to Fix Integration Issues**
+
+   If you find issues:
+   - Missing command that should orchestrate this skill
+   - Agent that doesn't reference the skill
+   - Command that tries to do everything (monolithic)
+   - Skill that contains workflow logic
+
+   Offer to create/fix these components following the three-layer pattern.
+
+#### Example Integration Check
+
+```bash
+# After creating skill at: plugins/my-plugin/skills/api-helper/
+
+# 1. Detect plugin
+Found plugin: my-plugin v1.0.0
+
+# 2. Check for related components
+Commands found:
+  - commands/api-call.md (references api-helper ✅)
+
+Agents found:
+  - agents/api-executor.md (references api-helper ✅)
+
+# 3. Verify architecture
+✅ Command delegates to agent
+✅ Agent references skill
+✅ Skill documents API only
+✅ Clear separation of concerns
+
+Integration Score: 0.9 (Excellent)
+```
+
+#### Reference Documentation
+
+For detailed architecture guidance, see:
+- `PLUGIN_ARCHITECTURE.md` in project root
+- `tldraw-helper/ARCHITECTURE.md` for reference implementation
+- `tldraw-helper/commands/draw.md` for example command
+
+**After integration check**, proceed with test cases as normal.
+
 ## Running and evaluating test cases
 
 This section is one continuous sequence — don't stop partway through. Do NOT use `/skill-test` or any other testing skill.

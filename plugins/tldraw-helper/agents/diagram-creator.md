@@ -38,13 +38,23 @@ First, gather information about what the user wants:
 
 Use AskUserQuestion if requirements are unclear.
 
-### 2. Check tldraw Status
+### 2. Check tldraw Status and Prepare Canvas
 
 ```bash
 curl -s http://localhost:7236/api/doc | jq .
 ```
 
-If no documents are open, inform the user to create one (Cmd+N / Ctrl+N).
+**Canvas Strategy:**
+- If no documents are open, inform the user to create one (Cmd+N / Ctrl+N)
+- If a document exists and has shapes (shapeCount > 0), automatically create a new document for a clean canvas
+- If a document exists and is empty (shapeCount = 0), use it directly
+
+**To create a new document:**
+```bash
+curl -X POST http://localhost:7236/api/doc -H 'Content-Type: application/json' -d '{}'
+```
+
+This ensures each diagram starts on a fresh canvas without asking the user.
 
 ### 3. Plan the Layout
 
