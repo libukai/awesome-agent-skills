@@ -167,6 +167,7 @@ As the Agent Skills standard becomes more widespread, an increasing number of co
 
 -   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): Skills collection for marketing
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Skills collection for scientific researchers
+-   [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis): Personal genome analysis toolkit built with Claude Code, covering 17 categories of genomic data analysis
 
 ### Supporting Tools
 
