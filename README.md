@@ -28,11 +28,11 @@
 
 本项目致力于遵循少而精的原则，收集和分享最优质的 Skills 教程、案例和实践，帮助更多人轻松迈出搭建 Agent 的第一步。
 
-> 欢迎关注我的 𝕏 账号 [@李不凯正在研究](https://x.com/libukai) ，即时获取 Agent Skills 的最新资源和实战教程！
+> 欢迎关注我的 𝕏 账号 [@李不凯正在研究](https://x.com/libukai) ，以及 💬 微信公众号 [@李不凯正在研究](https://mp.weixin.qq.com/s/uer7HvD2Z9ZbJSPEZWHKRA?scene=0&subscene=90) 即时获取 Skills 的最新资源和实战教程！
 
 ## 基本介绍
 
-Agent Skills （智能体技能）是一种轻量级的开放标准，用于通过专业知识和工作流程来扩展 AI Agent 的能力。
+Skills （智能体技能）是一种轻量级的开放标准，用于通过专业知识和工作流程来扩展 AI Agent 的能力。
 
 当你需要执行可重复的工作流程时，你无需在每次和 AI 的对话中重复解释自己的流程、知识和偏好，Skills 让你只需教导一次，便能让 AI 学会相关的技能。
 
