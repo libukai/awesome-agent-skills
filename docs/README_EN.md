@@ -175,6 +175,7 @@ As the Agent Skills standard becomes more widespread, an increasing number of co
 -   [openskills](https://github.com/numman-ali/openskills): Global Skills loading tool supporting multiple Agent platforms
 -   [skild.sh](https://skild.sh/): CLI tool for installing, managing, and syncing Skills across multiple tools
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills visualization management + curated repo + security scanning
+-   [agentskill.sh](https://agentskill.sh): Browse and install 69,000+ AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Zed, and 20+ AI tools
 
 ## Enhanced Plugin
 
