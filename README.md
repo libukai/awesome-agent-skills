@@ -139,6 +139,7 @@ skillhub upgrade # 升级已安装的技能
 
 
 
+-   [RioTheGreat-ai/agentfund-skill](https://github.com/RioTheGreat-ai/agentfund-skill): Crowdfunding for AI agents with milestone-based escrow on Base
 ### 官方项目
 
 -   [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills): Vercel 出品的操控浏览器及应用的 Skills 集合
