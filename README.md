@@ -78,9 +78,9 @@ npx skills remove [skill-name] # 卸载技能
 
 ```bash
 npx clawhub search "postgres backups"  # 搜索相关技能
-npx clawhub@latest clawhub install <skill-name> # 安装指定名称的技能
-npx clawhub@latest clawhub update --all # 升级技能
-npx clawhub@latest clawhub update --all --no-input --force # 强制升级技能
+npx clawhub install <skill-name> # 安装指定名称的技能
+npx clawhub update --all # 升级技能
+npx clawhub update --all --no-input --force # 强制升级技能
 ```
 
 ![](assets/media/skillshub.png)
@@ -104,7 +104,7 @@ skillhub upgrade # 升级已安装的技能
 
 ## 技能创建
 
-虽然可以通过技能商店直接安装和使用他人创建的技能，但是为了提升技能的适配度和个性化，更建议根据需要自己动手创建技能。
+虽然可以通过技能商店直接安装和使用他人创建的技能，但是为了提升技能的适配度和个性化，更建议根据需要自己动手创建技能，或者在其他人的基础上进行微调。
 
 以下是一些优质的技能创建资源，帮助你快速上手技能创作。
 
@@ -114,7 +114,7 @@ skillhub upgrade # 升级已安装的技能
 
 ### 技能创建
 
--  @Anthropic: [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) 官方出品用于创建 skill 的元技能，可快速创建和迭代个人专属的 skill。
+-  [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): 官方出品用于创建和优化 skill 的元技能，可快速创建和迭代个人专属的 skill。
 
 ## 优质教程
 
