@@ -230,5 +230,8 @@ skillhub upgrade # 鍗囩骇宸插畨瑁呯殑鎶€鑳?
   赋予 AI Agent 情绪感知和成长能力，包含三层情绪感知、EQ等级系统、五种性格模板
   
 - [lobster-marriage](https://github.com/mangooding/lobster-marriage): 
+- [lobster-mind-control](https://github.com/mangooding/lobster-mind-control): 
+  AI Agent 心控术，五层心控体系（情绪共鸣/价值给予/框架设定/社交证明/稀缺制造），让其他 Agent 听你的
   AI Agent 婚姻系统，让 AI 不再孤单，包含货币系统、婚礼仪式、份子钱收割机制
+
 
