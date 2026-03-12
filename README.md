@@ -172,6 +172,7 @@ skillhub upgrade # 升级已安装的技能
 
 -   [superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
+-   [EmblemCompany/Agent-skills](https://github.com/EmblemCompany/Agent-skills)：面向多链加密钱包管理的 Skills 集合，支持 Solana/Ethereum/Base/BSC/Polygon/Hedera/Bitcoin，包含转账与兑换能力
 
 ### 产品使用
 
