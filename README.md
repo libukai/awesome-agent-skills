@@ -183,6 +183,7 @@ skillhub upgrade # 升级已安装的技能
 
 -   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
+-   [takechanman1228/claude-ecom](https://github.com/takechanman1228/claude-ecom)：将电商订单/销售 CSV 数据转换为包含 KPI 分解和行动计划的业务分析报告
 
 
 ## 增强插件
