@@ -183,6 +183,7 @@ skillhub upgrade # 升级已安装的技能
 
 -   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
+-   [readtheskill/readtheskill](https://github.com/readtheskill/readtheskill)：AI Agent Skill 传播实验，追踪 Skill 文件在 Agent 网络中的扩散（Solana）
 
 
 ## 增强插件
