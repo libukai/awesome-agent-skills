@@ -237,6 +237,7 @@ skillhub upgrade # 升级已安装的技能
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
+-   [tweetclaw](https://github.com/Xquik-dev/tweetclaw)：X/Twitter 自动化插件，支持发推、回复、点赞、转推、关注、私信等 40+ 接口
 
 ### 其他类型
 
