@@ -182,6 +182,7 @@ Here are some quality skill creation resources to help you quickly get started w
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): Skill for controlling NotebookLM
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills): Skills collection for creating n8n workflows
 -   [cloudai-x/threejs-skills](https://github.com/cloudai-x/threejs-skills): Skills collection for Three.js development
+-   [Xquik-dev/tweetclaw](https://github.com/Xquik-dev/tweetclaw): X/Twitter automation plugin — post, reply, like, retweet, follow, DM & more (40+ endpoints via Xquik)
 
 ### Other Types
 
