@@ -187,6 +187,7 @@ skillhub upgrade # インストール済みスキルをアップグレード
 
 -   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills): マーケティング向け Skills コレクション
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): 科学研究者向け Skills コレクション
+-   [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis): Claude Code で構築された個人ゲノム解析ツールキット、17 カテゴリのゲノムデータ分析をカバー
 
 
 ## 強化プラグイン

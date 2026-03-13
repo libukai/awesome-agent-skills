@@ -183,6 +183,7 @@ skillhub upgrade # 升级已安装的技能
 
 -   [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
+-   [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis)：基于 Claude Code 的个人基因组分析工具包，涵盖 17 个类别的基因数据分析
 
 
 ## 增强插件
