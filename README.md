@@ -219,6 +219,13 @@ skillhub upgrade # 升级已安装的技能
 
 ![](assets/media/talk_is_cheap.jpg)
 
+## 安全工具
+
+在安装和使用 Agent Skills 之前，建议先对技能进行安全扫描，避免 prompt injection、数据泄露等风险：
+
+- [AgentShield](https://github.com/elliotllliu/agent-shield) — 免费离线的 AI Agent 安全扫描器，31 条规则检测 prompt 注入（支持中文等 8 种语言）、数据外泄、后门、工具投毒等。一行命令即可扫描：`npx @elliotllliu/agent-shield scan ./skill/`
+- [Snyk Agent Scan](https://github.com/snyk/agent-scan) — Snyk 出品的 MCP 扫描工具（需要 Snyk 账号）
+
 ## 项目历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)
