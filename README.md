@@ -50,7 +50,7 @@ my-skill/
 └── assets/           # 可选：模板、资源
 ```
 
-## 快速安装
+## 安装技能
 
 ### 类 Claude Code 生态
 
@@ -102,21 +102,17 @@ skillhub list # 列出已安装的技能
 skillhub upgrade # 升级已安装的技能
 ```
 
-## 技能创建
+## 创建技能
 
-虽然可以通过技能商店直接安装和使用他人创建的技能，但是为了提升技能的适配度和个性化，更建议根据需要自己动手创建技能，或者在其他人的基础上进行微调。
+虽然可以通过技能商店直接安装他人创建的技能，但是为了提升技能的适配度和个性化，更建议根据需要自己动手创建技能，或者在其他人的基础上进行微调。
 
-以下是一些优质的技能创建资源，帮助你快速上手技能创作。
-
-### 官方教程
-
--  @Anthropic: [Claude Skill 完全构建指南(中文版)](docs/Claude-Skills-完全构建指南.md)
-
-### 技能创建
-
--  [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): 官方出品用于创建和优化 skill 的元技能，可快速创建和迭代个人专属的 skill。
+通过官方出品的  [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) 可快速创建和迭代个人专属的 skill。结合 [Claude Skill 完全构建指南(中文版)](docs/Claude-Skills-完全构建指南.md) 可进行深度定制和优化，打造更符合自己个性化需求的技能。
 
 ## 优质教程
+
+### 讲座课件
+
+- @李不凯正在研究：[Agent Skills 终极指南](/assets/docs/Agent%20Skills%20终极指南.pdf)
 
 ### 图文教程
 
