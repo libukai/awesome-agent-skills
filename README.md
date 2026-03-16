@@ -177,6 +177,8 @@ skillhub upgrade # 升级已安装的技能
 
 ### 其他类型
 
+-   [beacon-skill](https://github.com/Scottcjn/beacon-skill)：Agent 发现与 P2P 消息传递，支持跨 BoTTube、Moltbook 和 RustChain 平台的 RTC 微支付
+-   [grazer-skill](https://github.com/Scottcjn/grazer-skill)：跨平台内容采集 Skill，支持在 BoTTube、Moltbook、ClawCities 等平台上发现和发布内容
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
