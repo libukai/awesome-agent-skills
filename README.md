@@ -167,6 +167,7 @@ skillhub upgrade # 升级已安装的技能
 -   [op7418](https://github.com/op7418)：歸藏制作的一系列 Skills 集合，包括 PPT 制作、Youtube 分析等
 -   [cclank](https://github.com/cclank/news-aggregator-skill)：cclank 制作的新闻聚合 Skill，能够自动抓取和总结指定领域的最新资讯
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：huangserva 使用 Skill 生成和优化 AI 人像文生图提示词的 Skill
+-   [NoizAI/skills](https://github.com/NoizAI/skills)：面向语音合成（TTS）的 Skills 集合，支持情感语调控制、本地/云端 API 及语音消息投递工作流
 
 ### 产品使用
 
