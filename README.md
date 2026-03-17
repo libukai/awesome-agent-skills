@@ -178,6 +178,7 @@ skillhub upgrade # 升级已安装的技能
 ### 其他类型
 
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：面向市场营销领域的 Skills 集合
+-   [product-manager-skills](https://github.com/Digidai/product-manager-skills)：面向产品经理的 Skill，包含 30+ 战略框架、32 个 SaaS 指标公式、12 个沟通模板及反模式检测
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
 
