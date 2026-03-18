@@ -74,7 +74,7 @@ npx skills remove [skill-name] # 卸载技能
 
 ![](assets/media/clawhub.png)
 
-如果有科学上网的能力，且使用官方版本 OpeClaw，推荐使用官方的 [ClawHub](https://clawhub.com/) 商店，提供的技能更偏技术向且包含了大量海外产品的整合。
+如果有科学上网的能力，且使用官方版本 OpenClaw，推荐使用官方的 [ClawHub](https://clawhub.com/) 商店，提供的技能更偏技术向且包含了大量海外产品的整合。
 
 ```bash
 npx clawhub search "postgres backups"  # 搜索相关技能
