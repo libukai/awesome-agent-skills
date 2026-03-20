@@ -173,8 +173,8 @@ skillhub upgrade # 升级已安装的技能
 
 ### 编程开发
 
--   [superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
--   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
+-   [superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程
+-   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：更精致和个性化的 UI/UX 设计
 
 ### 内容创作
 
@@ -186,10 +186,10 @@ skillhub upgrade # 升级已安装的技能
 
 ### 产品使用
 
--   [wps](https://github.com/wpsnote/wpsnote-skills)：WPS 出品的办公软件相关 Skills 集合
--   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
--   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流的 Skills 集合
--   [threejs](https://github.com/cloudai-x/threejs-skills)： 面向 Three.js 开发的 Skills 集合
+-   [wps](https://github.com/wpsnote/wpsnote-skills)：操控 WPS 办公软件
+-   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
+-   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
+-   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 
 ### 其他类型
 
@@ -212,9 +212,7 @@ skillhub upgrade # 升级已安装的技能
 
 ### 增强插件
 
-在官方 skill-creator plugin 的基础上，本项目整合 [Claude Skill 完整构建指南](docs/Claude-Skills-完全构建指南.md) 和 [Agent Skills 五种设计模式](docs/Agent-Skill-五种设计模式.md) 的最佳实践，构建了一个更为强大的 Agent Skills Toolkit，帮助你快速创建和改进 Agent Skills。
-
-**注意：该插件目前仅支持 Claude Code**
+在官方 skill-creator plugin 的基础上，本项目整合来自 Anthropic 和 Google 团队的最佳实践，构建了一个更为强大的 Agent Skills Toolkit，帮助你快速创建和改进 Agent Skills。（**注意：该插件目前仅支持 Claude Code**）
 
 #### 添加市场
 
