@@ -192,6 +192,7 @@ skillhub upgrade                  # Upgrade installed skills
 
 - [superpowers](https://github.com/obra/superpowers/tree/main/skills): Complete programming project workflow
 - [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): More refined and personalized UI/UX design
+- [skillfold](https://github.com/byronxlg/skillfold): Configuration language and compiler for multi-agent AI pipelines. Compiles a single YAML config into agent skills for 11 platforms including Claude Code, Cursor, Copilot, and Gemini. Ships with 11 reusable library skills.
 
 ### Content Creation
 

@@ -207,6 +207,7 @@ skillhub upgrade # 升级已安装的技能
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
 -   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+-   [skillfold](https://github.com/byronxlg/skillfold)：多智能体 AI 流水线的配置语言和编译器，将单个 YAML 配置编译为 11 个平台的 Agent Skills，并附带 11 个可复用的技能库
 
 
 ### 内容创作
