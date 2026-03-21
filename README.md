@@ -201,16 +201,23 @@ skillhub upgrade # 升级已安装的技能
 
 ### 编程开发
 
--   [superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程
+-   [superpowers](https://github.com/obra/superpowers)：涵盖完整编程项目工作流程
+-   [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design)：前端设计技能
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：更精致和个性化的 UI/UX 设计
+-   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
+-   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
+-   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+
 
 ### 内容创作
 
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉的自用 SKills 集合，包括公众号写作、PPT 制作等
--   [libukai](https://github.com/libukai/awesome-agent-skills): 李不凯发布 Obsidian 相关工具 Skill
--   [op7418](https://github.com/op7418)：歸藏制作的一系列 Skills 集合，包括 PPT 制作、Youtube 分析等
--   [cclank](https://github.com/cclank/news-aggregator-skill)：cclank 制作的新闻聚合 Skill，能够自动抓取和总结指定领域的最新资讯
--   [huangserva](https://github.com/huangserva/skill-prompt-generator)：huangserva 使用 Skill 生成和优化 AI 人像文生图提示词的 Skill
+-   [libukai](https://github.com/libukai/awesome-agent-skills): Obsidian 相关技能集合，专门适配 Obsidian 的写作场景
+-   [op7418](https://github.com/op7418)：歸藏创作的高质量 PPT 制作、Youtube 分析技能
+-   [cclank](https://github.com/cclank/news-aggregator-skill)：自动抓取和总结指定领域的最新资讯
+-   [huangserva](https://github.com/huangserva/skill-prompt-generator)：生成和优化 AI 人像文生图提示词
+-   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
+-   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
 
 ### 产品使用
 
@@ -221,34 +228,15 @@ skillhub upgrade # 升级已安装的技能
 
 ### 其他类型
 
--  [pua](https://github.com/tanweai/pua)：以 PUA 的方式驱动 Agent 更卖力的干活
--   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种建议
--   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力领域
--   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能水平
+-  [pua](https://github.com/tanweai/pua)：以 PUA 的方式驱动 AI 更卖力的干活
+-   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
+-   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
+-   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
 
 
 ## 安全指南
 
-随着 Agent 自主能力的增强，安全问题日益重要。2026 年，Prompt 注入已成为 AI 系统最主要的攻击向量，占生产环境安全审计问题的 73%。
-
-### 核心威胁
-
-- **Prompt 注入**：恶意指令藏匿于 PDF、邮件、网页或 RAG 检索内容中，Agent 读取后直接执行
-- **工具劫持**：Agent 使用合法工具但被引导向错误目标，例如搜索变下载、草稿变执行
-- **数据泄露**：敏感信息通过 verbose 输出、日志或工具响应意外外泄
-
-### 权限配置
-
-Claude Code 权限分三层：全局 `~/.claude/settings.json`、项目 `.claude/settings.json`、本地 `.claude/settings.local.json`。
-
-- **deny 规则优先于 allow 规则**，默认使用 Normal 模式（覆盖 85% 场景）
-- 仅在隔离的 CI/CD 容器中使用 Bypass 模式
-- 将 `curl`、`wget`、`nc`、`ssh` 等常见泄露向量加入 deny 列表
-- 在敏感项目上运行前，先审计 `CLAUDE.md` 和 `.claude/settings.json`
-
-### Sandboxing
-
-Anthropic 官方 [Sandboxing](https://www.anthropic.com/engineering/claude-code-sandboxing) 使用 OS 级原语（macOS Seatbelt / Linux bubblewrap），在内核层面强制执行文件系统和网络隔离，内部测试显示可减少 84% 的权限提示，同时提升安全性。
+随着 Agent 自主能力的增强，安全问题日益重要。
 
 ### Skill 安全设计原则
 
@@ -258,16 +246,6 @@ Anthropic 官方 [Sandboxing](https://www.anthropic.com/engineering/claude-code-
 4. 密钥只存服务端，不暴露给 Agent
 5. 默认假设存在绕过控制的对抗性尝试
 
-### 安全相关 Skill
-
--   [prompt-injection-defense](https://lobehub.com/skills/alexyyyander-prompt-injection-defense-skill)：会话级 Prompt 注入防御层，覆盖指令覆盖、角色劫持、载荷走私等 12 类攻击模式
--   [secure-ai](https://playbooks.com/skills/yuniorglez/gemini-elite-core/secure-ai)：AI 安全架构师角色，防注入、数据泄露和权限提升
-
-### 延伸阅读
-
--   @Anthropic：[Making Claude Code more secure with sandboxing](https://www.anthropic.com/engineering/claude-code-sandboxing)
--   @SFEIR：[Claude Code Permissions & Security Tips](https://institute.sfeir.com/en/claude-code/claude-code-permissions-and-security/tips/)
--   @Ankit Shah：[Agentic AI Security in 2026: The Year Prompt Injection Became a Weapon](https://ankitshah009.substack.com/p/agentic-ai-security-in-2026-the-year)
 
 ## 创建技能
 
