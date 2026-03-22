@@ -279,7 +279,6 @@ skillhub upgrade # 升级已安装的技能
 - `/agent-skills-toolkit:create-skill` - 创建新 skill
 - `/agent-skills-toolkit:improve-skill` - 改进现有 skill
 - `/agent-skills-toolkit:test-skill` - 测试评估 skill
-- `/agent-skills-toolkit:optimize-description` - 优化描述
 
 ## 致谢
 
