@@ -201,6 +201,13 @@ skillhub upgrade                  # Upgrade installed skills
 <td><a href="https://github.com/langgenius/dify/tree/main/.claude/skills">dify</a></td>
 <td><a href="https://github.com/sanity-io/agent-toolkit/tree/main/skills">sanity</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/hardhackerlabs/podwise-cli">podwise-cli</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
 
 ## Featured Skills
