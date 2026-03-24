@@ -209,6 +209,7 @@ skillhub upgrade # 升级已安装的技能
 ### 编程开发
 
 -   [superpowers](https://github.com/obra/superpowers)：涵盖完整编程项目工作流程
+-   [claw-army/claude-node](https://github.com/claw-army/claude-node)：Python subprocess bridge for Claude Code CLI，给 Python 代码提供直接访问 Claude Code 原生能力
 -   [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design)：前端设计技能
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：更精致和个性化的 UI/UX 设计
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
