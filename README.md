@@ -232,6 +232,7 @@ skillhub upgrade # 升级已安装的技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [xvary-stock-research](https://github.com/xvary-research/claude-code-stock-analysis-skill)：公开 SEC EDGAR 与市场数据的 Claude Code 股票研究技能（评分与失效条件）
 
 
 ## 安全警示
