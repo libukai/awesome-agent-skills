@@ -95,6 +95,27 @@ export function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/**
+ * Human-like random delay helpers for anti-spam / anti-bot purposes.
+ *
+ * IMPORTANT: Only use these for NON-CRITICAL pauses (navigating between pages,
+ * filling in forms, waiting before clicks). Do NOT replace fixed sleeps that
+ * are minimum synchronization points (e.g. waiting for DraftJS to process a
+ * Backspace keystroke, or waiting for a scroll to settle) — those need a
+ * guaranteed minimum and must stay as sleep(N).
+ *
+ * Ranges chosen to match typical human reaction times:
+ *   quickDelay  100–300 ms  — fast click / keystroke reaction
+ *   normalDelay 400–800 ms  — typical UI interaction pause
+ *   thinkDelay  800–1500 ms — reading / deciding pause
+ */
+export const humanDelay = (minMs: number, maxMs: number): Promise<void> =>
+  sleep(minMs + Math.random() * (maxMs - minMs));
+
+export const quickDelay  = (): Promise<void> => humanDelay(100, 300);
+export const normalDelay = (): Promise<void> => humanDelay(400, 800);
+export const thinkDelay  = (): Promise<void> => humanDelay(800, 1500);
+
 export async function getFreePort(): Promise<number> {
   const fixed = parseInt(process.env.X_BROWSER_DEBUG_PORT || '', 10);
   if (fixed > 0) return fixed;
@@ -319,10 +340,12 @@ export async function cdpPasteImage(
       expression: `(async () => {
         const editor = document.querySelector(${JSON.stringify(editorSelector)});
         if (!editor) return false;
-        // Only focus if editor is not already focused (preserve existing selection for paste-to-replace)
-        if (document.activeElement !== editor) {
-          editor.focus();
-        }
+        // DO NOT call editor.focus() here.
+        // DraftJS maintains its own internal SelectionState independent of the DOM.
+        // editor.focus() triggers DraftJS's onFocus handler which restores the LAST SAVED
+        // internal selection — potentially a stale position from before the caller set
+        // the correct selection via mouse drag. The caller is responsible for ensuring
+        // the editor is focused before calling this function.
 
         // Decode base64 to binary
         const base64 = ${JSON.stringify(base64)};

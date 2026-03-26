@@ -16,8 +16,10 @@ import {
   getDefaultProfileDir,
   getFreePort,
   grantClipboardPermissions,
+  normalDelay,
   pasteFromClipboard,
   sleep,
+  thinkDelay,
   waitForChromeDebugPort,
 } from './x-utils.js';
 import { insertCodeBlocks } from './insert-code-blocks.js';
@@ -156,7 +158,7 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
     const clipboardGranted = await grantClipboardPermissions(cdp);
 
     console.log('[x-article] Waiting for articles page...');
-    await sleep(1000);
+    await thinkDelay(); // non-critical: human-like pause after navigation
 
     // Wait for and click "create" button
     const waitForElement = async (selector: string, timeoutMs = 60_000): Promise<boolean> => {
@@ -343,7 +345,7 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
       // Tab out to trigger save
       await cdp.send('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 }, { sessionId });
       await cdp.send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 }, { sessionId });
-      await sleep(500);
+      await normalDelay(); // non-critical: human-like pause after tabbing out of title
     }
 
     // Insert HTML content
@@ -392,7 +394,7 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
       returnByValue: true,
     }, { sessionId });
 
-    await sleep(1000);
+    await thinkDelay(); // non-critical: human-like pause after HTML paste (method 1)
 
     // Check if content was inserted
     const contentCheck = await cdp.send<{ result: { value: number } }>('Runtime.evaluate', {
@@ -416,7 +418,7 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
         })()`,
       }, { sessionId });
 
-      await sleep(1000);
+      await thinkDelay(); // non-critical: human-like pause after HTML paste (method 2 fallback)
 
       // Check again
       const check2 = await cdp.send<{ result: { value: number } }>('Runtime.evaluate', {
@@ -469,57 +471,81 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
         const img = sortedImages[i]!;
         console.log(`[x-article] [${i + 1}/${sortedImages.length}] Inserting image at placeholder: ${img.placeholder}`);
 
-        // Helper to select placeholder with retry
+        // Helper to select placeholder via mouse drag (same approach as code blocks).
+        // WHY: DOM Range API selection + editor.focus() causes DraftJS to restore a stale
+        // internal SelectionState, placing images at the wrong position.
+        // Mouse drag lets DraftJS process its own onMouseDown/Move/Up events and keep
+        // its internal SelectionState in sync with the DOM.
         const selectPlaceholder = async (maxRetries = 3): Promise<boolean> => {
           for (let attempt = 1; attempt <= maxRetries; attempt++) {
-            // Find, scroll to, and select the placeholder text in DraftEditor
-            await cdp!.send('Runtime.evaluate', {
-              expression: `(() => {
-                const editor = document.querySelector('.DraftEditor-editorContainer [data-contents="true"]');
-                if (!editor) return false;
-
-                const placeholder = ${JSON.stringify(img.placeholder)};
-
-                // Search through all text nodes in the editor
-                const walker = document.createTreeWalker(editor, NodeFilter.SHOW_TEXT, null, false);
-                let node;
-
-                while ((node = walker.nextNode())) {
-                  const text = node.textContent || '';
-                  let searchStart = 0;
-                  let idx;
-                  // Search for exact match (not prefix of longer placeholder like XIMGPH_1 in XIMGPH_10)
-                  while ((idx = text.indexOf(placeholder, searchStart)) !== -1) {
-                    const afterIdx = idx + placeholder.length;
-                    const charAfter = text[afterIdx];
-                    // Exact match if next char is not a digit (XIMGPH_1 should not match XIMGPH_10)
-                    if (charAfter === undefined || !/\\d/.test(charAfter)) {
-                      // Found exact placeholder - scroll to it first
-                      const parentElement = node.parentElement;
-                      if (parentElement) {
-                        parentElement.scrollIntoView({ behavior: 'instant', block: 'center' });
+            // Find placeholder coordinates via DOM (for positioning only, NOT for selection).
+            // Uses double rAF + awaitPromise: first rAF lets the browser process
+            // scrollIntoView, second rAF ensures layout is computed so getClientRects()
+            // returns accurate coordinates — critical after DOM reflow caused by
+            // a previous image insertion shifting subsequent placeholders.
+            const coords = await cdp!.send<{ result: { value: { startX: number; endX: number; y: number } | null } }>('Runtime.evaluate', {
+              expression: `new Promise(resolve => {
+                requestAnimationFrame(() => requestAnimationFrame(() => {
+                  const editor = document.querySelector('.DraftEditor-editorContainer [data-contents="true"]');
+                  if (!editor) { resolve(null); return; }
+                  const ph = ${JSON.stringify(img.placeholder)};
+                  const walker = document.createTreeWalker(editor, NodeFilter.SHOW_TEXT, null, false);
+                  let node;
+                  while ((node = walker.nextNode())) {
+                    const text = node.textContent || '';
+                    let searchStart = 0;
+                    let idx;
+                    while ((idx = text.indexOf(ph, searchStart)) !== -1) {
+                      const afterIdx = idx + ph.length;
+                      const charAfter = text[afterIdx];
+                      if (charAfter === undefined || !/\d/.test(charAfter)) {
+                        const parent = node.parentElement;
+                        if (parent) parent.scrollIntoView({ behavior: 'instant', block: 'center' });
+                        const range = document.createRange();
+                        range.setStart(node, idx);
+                        range.setEnd(node, idx + ph.length);
+                        const rects = range.getClientRects();
+                        if (rects.length > 0) {
+                          const first = rects[0];
+                          const last = rects[rects.length - 1];
+                          resolve({ startX: Math.round(first.left + 2), endX: Math.round(last.right - 2), y: Math.round(first.top + first.height / 2) });
+                          return;
+                        }
+                        if (parent) {
+                          const r = parent.getBoundingClientRect();
+                          resolve({ startX: Math.round(r.left + 2), endX: Math.round(r.right - 2), y: Math.round(r.top + r.height / 2) });
+                          return;
+                        }
+                        resolve(null);
+                        return;
                       }
-
-                      // Select it
-                      const range = document.createRange();
-                      range.setStart(node, idx);
-                      range.setEnd(node, idx + placeholder.length);
-                      const sel = window.getSelection();
-                      sel.removeAllRanges();
-                      sel.addRange(range);
-                      return true;
+                      searchStart = afterIdx;
                     }
-                    searchStart = afterIdx;
                   }
-                }
-                return false;
-              })()`,
+                  resolve(null);
+                }));
+              })`,
+              returnByValue: true,
+              awaitPromise: true,
             }, { sessionId });
 
-            // Wait for scroll and selection to settle
-            await sleep(800);
+            if (!coords.result.value) {
+              console.warn(`[x-article] Placeholder coords not found (attempt ${attempt})`);
+              await sleep(500);
+              continue;
+            }
 
-            // Verify selection matches the placeholder
+            const { startX, endX, y } = coords.result.value;
+
+            // Mouse drag to select placeholder (DraftJS handles via its own event handlers)
+            await cdp!.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: startX, y, button: 'left', clickCount: 1 }, { sessionId });
+            await sleep(80);
+            await cdp!.send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: endX, y, button: 'left', clickCount: 0 }, { sessionId });
+            await sleep(80);
+            await cdp!.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: endX, y, button: 'left', clickCount: 1 }, { sessionId });
+            await sleep(500);
+
+            // Verify selection
             const selectionCheck = await cdp!.send<{ result: { value: string } }>('Runtime.evaluate', {
               expression: `window.getSelection()?.toString() || ''`,
               returnByValue: true,
@@ -527,19 +553,70 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
 
             const selectedText = selectionCheck.result.value.trim();
             if (selectedText === img.placeholder) {
-              console.log(`[x-article] Selection verified: "${selectedText}"`);
+              console.log(`[x-article] Mouse selection verified: "${selectedText}"`);
               return true;
             }
 
             if (attempt < maxRetries) {
               console.log(`[x-article] Selection attempt ${attempt} got "${selectedText}", retrying...`);
               await sleep(500);
+              // Before retry, ensure focus is in the editor (not title bar).
+              // Get editor coords, then click inside to reset cleanly.
+              const retryCoords = await cdp!.send<{ result: { value: { x: number; y: number } | null } }>('Runtime.evaluate', {
+                expression: `(() => {
+                  const el = document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]');
+                  if (!el) return null;
+                  const r = el.getBoundingClientRect();
+                  return { x: Math.round(r.left + r.width / 2), y: Math.round(r.top + r.height / 2) };
+                })()`,
+                returnByValue: true,
+              }, { sessionId });
+              if (retryCoords.result.value) {
+                await cdp!.send('Input.dispatchMouseEvent', {
+                  type: 'mousePressed', x: retryCoords.result.value.x, y: retryCoords.result.value.y, button: 'left', clickCount: 1,
+                }, { sessionId });
+                await cdp!.send('Input.dispatchMouseEvent', {
+                  type: 'mouseReleased', x: retryCoords.result.value.x, y: retryCoords.result.value.y, button: 'left', clickCount: 1,
+                }, { sessionId });
+              }
             } else {
               console.warn(`[x-article] Selection failed after ${maxRetries} attempts, got: "${selectedText}"`);
             }
           }
           return false;
         };
+
+        // Guard: ensure focus is in the editor body, NOT in the title bar.
+        // After previous image paste, focus may have drifted.
+        const focusGuard = await cdp.send<{ result: { value: { inEditor: boolean; tagName: string } } }>('Runtime.evaluate', {
+          expression: `(() => {
+            const container = document.querySelector('.DraftEditor-editorContainer');
+            const active = document.activeElement;
+            return { inEditor: active ? container?.contains(active) : false, tagName: active?.tagName || '' };
+          })()`,
+          returnByValue: true,
+        }, { sessionId });
+        if (!focusGuard.result.value.inEditor) {
+          console.log(`[x-article] Focus NOT in editor (active: <${focusGuard.result.value.tagName}>), clicking editor...`);
+          const guardCoords = await cdp.send<{ result: { value: { x: number; y: number } | null } }>('Runtime.evaluate', {
+            expression: `(() => {
+              const el = document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]');
+              if (!el) return null;
+              const r = el.getBoundingClientRect();
+              return { x: Math.round(r.left + r.width / 2), y: Math.round(r.top + r.height / 2) };
+            })()`,
+            returnByValue: true,
+          }, { sessionId });
+          if (guardCoords.result.value) {
+            await cdp.send('Input.dispatchMouseEvent', {
+              type: 'mousePressed', x: guardCoords.result.value.x, y: guardCoords.result.value.y, button: 'left', clickCount: 1,
+            }, { sessionId });
+            await cdp.send('Input.dispatchMouseEvent', {
+              type: 'mouseReleased', x: guardCoords.result.value.x, y: guardCoords.result.value.y, button: 'left', clickCount: 1,
+            }, { sessionId });
+            await sleep(300);
+          }
+        }
 
         // Try to select the placeholder
         const selected = await selectPlaceholder(3);
@@ -557,21 +634,10 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
         }, { sessionId });
         const expectedImgCount = imgCountBefore.result.value + 1;
 
-        // Step 1: Delete placeholder via keyboard Backspace (same pattern as code blocks)
-        // Synthetic paste-to-replace is unreliable: DraftJS doesn't always remove the
-        // selection from ContentState when processing synthetic ClipboardEvents, so
-        // placeholders "reappear" on the next re-render.  Deleting first via Backspace
-        // goes through DraftJS's key handler and reliably updates ContentState.
+        // Step 1: Delete placeholder via keyboard Backspace
+        // Mouse drag already focused the editor and set DraftJS's internal SelectionState correctly.
+        // NO explicit editor.focus() — it would restore a stale DraftJS selection.
         console.log(`[x-article] Deleting placeholder "${img.placeholder}" via keyboard...`);
-
-        // Focus editor so DraftJS receives keyboard events
-        await cdp.send('Runtime.evaluate', {
-          expression: `(() => {
-            const editor = document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]');
-            if (editor) editor.focus();
-          })()`,
-        }, { sessionId });
-        await sleep(300);
 
         // Backspace to delete selected placeholder text (updates ContentState)
         await cdp.send('Input.dispatchKeyEvent', {
@@ -617,8 +683,6 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
         }
         // If prevAtomic, leave the empty block as a safe insertion point for the image paste
 
-        await sleep(500); // Let ContentState stabilize
-
         // Verify placeholder was removed from ContentState
         const placeholderDeleted = await cdp.send<{ result: { value: boolean } }>('Runtime.evaluate', {
           expression: `(() => {
@@ -636,13 +700,9 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
           console.warn(`[x-article] Placeholder still present after delete, retrying...`);
           const reselected = await selectPlaceholder(2);
           if (reselected) {
-            await cdp.send('Runtime.evaluate', {
-              expression: `(() => {
-                const editor = document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]');
-                if (editor) editor.focus();
-              })()`,
-            }, { sessionId });
-            await sleep(300);
+            // Mouse drag in selectPlaceholder already focused the editor correctly.
+            // NO editor.focus() — it would restore a stale DraftJS selection.
+            await sleep(200);
             await cdp.send('Input.dispatchKeyEvent', {
               type: 'keyDown', key: 'Backspace', code: 'Backspace', windowsVirtualKeyCode: 8,
             }, { sessionId });
@@ -657,28 +717,38 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
         }
 
         // CRITICAL: Ensure editor has focus before pasting image.
-        // After deletion, cursor might be on an empty block. DraftJS needs
-        // the editor to be focused to correctly receive the paste event.
+        // Mouse drag already set DraftJS's internal SelectionState. After deletion,
+        // DraftJS should have moved cursor to the correct position.
+        // We do NOT call editor.focus() — it would restore a stale DraftJS selection.
+        // Instead, use a CDP mouse click inside the editor to re-focus without
+        // disturbing DraftJS's internal state (a mousePressed at current cursor pos
+        // is a no-op for DraftJS selection if the coordinates are near the caret).
         console.log(`[x-article] Ensuring editor focus before image paste...`);
-        await cdp.send('Runtime.evaluate', {
+        const editorCoords = await cdp.send<{ result: { value: { x: number; y: number } | null } }>('Runtime.evaluate', {
           expression: `(() => {
-            const editor = document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]');
-            if (editor) {
-              editor.focus();
-              // If cursor is on an empty block, collapse to start to ensure position is recorded
-              const sel = window.getSelection();
-              if (sel && sel.focusNode) {
-                let node = sel.focusNode;
-                if (node.nodeType === 3) node = node.parentElement;
-                const block = node?.closest?.('[data-block="true"]');
-                if (block && (block.textContent || '').trim() === '') {
-                  sel.collapseToStart();
-                }
-              }
-            }
+            const sel = window.getSelection();
+            if (!sel || !sel.focusNode) return null;
+            let node = sel.focusNode;
+            if (node.nodeType === 3) node = node.parentElement;
+            const block = node?.closest?.('[data-block="true"]');
+            if (!block) return null;
+            const r = block.getBoundingClientRect();
+            // Click in the middle of the current block (where the caret should be after deletion)
+            return { x: Math.round(r.left + r.width / 2), y: Math.round(r.top + r.height / 2) };
           })()`,
+          returnByValue: true,
         }, { sessionId });
-        await sleep(300);
+        if (editorCoords.result.value) {
+          await cdp.send('Input.dispatchMouseEvent', {
+            type: 'mousePressed', x: editorCoords.result.value.x, y: editorCoords.result.value.y,
+            button: 'left', clickCount: 1,
+          }, { sessionId });
+          await cdp.send('Input.dispatchMouseEvent', {
+            type: 'mouseReleased', x: editorCoords.result.value.x, y: editorCoords.result.value.y,
+            button: 'left', clickCount: 1,
+          }, { sessionId });
+        }
+        await sleep(200);
 
         console.log(`[x-article] Placeholder deleted. Pasting image at cursor...`);
 
@@ -740,6 +810,41 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
 
         if (imgUploadOk) {
           console.log(`[x-article] Image upload verified (${expectedImgCount} image block(s))`);
+
+          // CRITICAL: Verify placeholder didn't reappear after paste (DraftJS ContentState race)
+          // If it did, clean it up immediately before moving to next image
+          const reappearCheck = await cdp.send<{ result: { value: boolean } }>('Runtime.evaluate', {
+            expression: `(() => {
+              const editor = document.querySelector('.DraftEditor-editorContainer [data-contents="true"]');
+              if (!editor) return false;
+              const text = editor.innerText;
+              const placeholder = ${JSON.stringify(img.placeholder)};
+              const regex = new RegExp(placeholder + '(?!\\\\d)');
+              return regex.test(text);
+            })()`,
+            returnByValue: true,
+          }, { sessionId });
+
+          if (reappearCheck.result.value) {
+            console.warn(`[x-article] Placeholder "${img.placeholder}" reappeared after paste, cleaning up...`);
+            // Try to select and delete the reappeared placeholder
+            const reselected = await selectPlaceholder(2);
+            if (reselected) {
+              // Mouse drag in selectPlaceholder already focused editor correctly.
+              // NO editor.focus() — it would restore a stale DraftJS selection.
+              await sleep(200);
+              await cdp.send('Input.dispatchKeyEvent', {
+                type: 'keyDown', key: 'Backspace', code: 'Backspace', windowsVirtualKeyCode: 8,
+              }, { sessionId });
+              await cdp.send('Input.dispatchKeyEvent', {
+                type: 'keyUp', key: 'Backspace', code: 'Backspace', windowsVirtualKeyCode: 8,
+              }, { sessionId });
+              await sleep(300);
+              console.log(`[x-article] Reappeared placeholder cleaned up: ${img.placeholder}`);
+            } else {
+              console.warn(`[x-article] Could not clean up reappeared placeholder: ${img.placeholder}`);
+            }
+          }
         } else {
           console.warn(`[x-article] Image upload not detected after 15s`);
           if (i === 0) {
@@ -749,6 +854,15 @@ export async function publishArticle(options: ArticleOptions): Promise<void> {
 
         // Wait for DraftEditor DOM to stabilize before next image
         await sleep(2000);
+
+        // Force DraftJS reconciliation: blur editor so it commits ContentState.
+        // Without this, subsequent image insertions can fail because DraftJS's
+        // internal SelectionState is stale after the previous image's atomic block
+        // was inserted, causing mouse-based selection to silently fail.
+        await cdp.send('Runtime.evaluate', {
+          expression: `document.querySelector('.DraftEditor-editorContainer [contenteditable="true"]')?.blur()`,
+        }, { sessionId });
+        await sleep(500);
       }
 
       console.log('[x-article] All images processed.');
