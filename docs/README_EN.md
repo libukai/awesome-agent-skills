@@ -220,7 +220,8 @@ skillhub upgrade                  # Upgrade installed skills
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review): Code review skills
 -   [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier): Code simplification skills
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands): Git commit skills
-
+-   [skyvern](https://github.com/Skyvern-AI/skyvern/tree/main/skyvern/cli/skills/skyvern): AI browser automation for dynamic pages, forms, and data extraction
+  
 ### Content Creation
 
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat article writing, PPT creation, etc.
