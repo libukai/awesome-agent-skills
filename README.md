@@ -83,6 +83,13 @@ npx skills update                                # 升级所有技能
 npx skills remove [skill-name]                   # 卸载技能
 ```
 
+还可使用 [TokRepo](https://tokrepo.com/zh) 作为开放的 AI 资产注册表，搜索和安装社区维护的 Skill、Prompt、MCP Config 与 Workflow。对于想要跨 Claude Code、Codex、Gemini CLI、Cursor 等多种 Agent 工具统一检索资源的场景，会比单一商店更灵活。
+
+```bash
+npx tokrepo search [query]                       # 搜索相关资源
+npx tokrepo install <uuid-or-name>               # 安装指定资源
+```
+
 ### 类 OpenClaw 生态
 
 ![](assets/media/clawhub.png)
