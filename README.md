@@ -64,6 +64,7 @@ Skill 可以在 Claude 和 ChatGPT 这类 GUI 的 App 中使用，也可以在 C
 
 对于官方商店中没有的 Skill，可以从下方推荐的 Skill 第三方商店中下载并手动上传安装。
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent skills and system prompts for Claude Code multi-agent orchestration. MIT licensed.
 ### 类 Claude Code 生态
 
 ![](assets/media/skills_mp.png)
