@@ -237,6 +237,7 @@ skillhub upgrade                  # Upgrade installed skills
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py): Control NotebookLM
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
+-   [tweetclaw](https://github.com/Xquik-dev/tweetclaw): X/Twitter automation plugin - post, reply, like, retweet, follow, DM and more (40+ endpoints via Xquik)
 
 ### Other Types
 
