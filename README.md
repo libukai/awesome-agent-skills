@@ -237,6 +237,7 @@ skillhub upgrade # 升级已安装的技能
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
+-   [blogburst](https://github.com/shensi8312/blogburst-claude-skill)：自动化社交媒体运营 —— 在 Twitter、Bluesky、Telegram、Discord 自动写帖、回复、学习效果。对标 $500-1500/月的自由职业社媒运营，价格 $29-99/月
 
 ### 其他类型
 
