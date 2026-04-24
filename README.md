@@ -112,11 +112,13 @@ curl -fsSL https://skillhub-1388575217.cos.ap-guangzhou.myqcloud.com/install/ins
 安装完成后，可以使用以下命令来安装和管理技能：
 
 ```bash
-skillhub search [query] # 搜索相关技能
+ skillhub search [query] # 搜索相关技能
 skillhub install <skill-name> # 使用 skill name 添加技能
 skillhub list # 列出已安装的技能
 skillhub upgrade # 升级已安装的技能
 ```
+
+如果你更偏向中文搜索和国内可访问的技能市场，也可以试试 [Skills宝 (skilery.com)](https://skilery.com)，支持中文直接搜索并一站式安装 Claude Code、OpenCode 等平台可用的 Skills。
 
 ## 优质教程
 
