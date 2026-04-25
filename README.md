@@ -219,6 +219,11 @@ skillhub upgrade # 升级已安装的技能
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
 -   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+-   [prompt-guard](https://github.com/aptratcn/prompt-guard)：Prompt注入检测与防护
+-   [skill-llm-sanitizer](https://github.com/aptratcn/skill-llm-sanitizer)：发送LLM前的PII/密钥脱敏
+-   [skill-error-recovery](https://github.com/aptratcn/skill-error-recovery)：4R错误恢复框架
+-   [cognitive-debt-guard](https://github.com/aptratcn/cognitive-debt-guard)：AI代码认知债务防护
+-   [token-budget-guard](https://github.com/aptratcn/token-budget-guard)：Token预算管理
 
 
 ### 内容创作
