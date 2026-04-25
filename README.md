@@ -244,6 +244,7 @@ skillhub upgrade # 升级已安装的技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [multi-agent-safety](https://github.com/KKEERB/multi-agent-safety)： 防止多智能体协作中的同伴保护行为偏差
 
 
 ## 安全审查
@@ -301,3 +302,4 @@ skillhub upgrade # 升级已安装的技能
 ## 项目历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=libukai/awesome-agent-skills&type=date&legend=top-left)](https://www.star-history.com/#libukai/awesome-agent-skills&type=date&legend=top-left)
+
