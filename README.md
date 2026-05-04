@@ -244,6 +244,7 @@ skillhub upgrade # 升级已安装的技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [master-skill](https://github.com/voidborne-d/master-skill)：输入行业自动蒸馏可装载的 Master OS skill (6 轨调研 + 人物 sub-skills)
 
 
 ## 安全审查
