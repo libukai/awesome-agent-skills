@@ -244,6 +244,7 @@ skillhub upgrade                  # Upgrade installed skills
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [buywhere-api](https://github.com/BuyWhere/buywhere-api): Cross-platform e-commerce product search engine with real-time price comparison and deal discovery, supporting MCP protocol integration
 
 ## Security Audit
 
