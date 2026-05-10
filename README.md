@@ -237,6 +237,7 @@ skillhub upgrade # 升级已安装的技能
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
+-   [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)：Xquik 的 X/Twitter 数据 Skill，用于推文搜索、用户推文、粉丝导出、媒体下载、Webhooks、MCP 和确认后发推/回复
 
 ### 其他类型
 

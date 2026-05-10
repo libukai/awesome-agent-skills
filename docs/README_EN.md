@@ -237,6 +237,7 @@ skillhub upgrade                  # Upgrade installed skills
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py): Control NotebookLM
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
+-   [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper): Xquik Skill for X/Twitter data workflows: tweet search, user tweets, follower export, media download, webhooks, MCP, and confirmation-gated posting or replies
 
 ### Other Types
 
