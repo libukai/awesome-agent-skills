@@ -220,6 +220,7 @@ skillhub upgrade                  # Upgrade installed skills
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review): Code review skills
 -   [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier): Code simplification skills
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands): Git commit skills
+-   [karpathy-guidelines](https://github.com/swarmclawai/andrej-karpathy-skills): Andrej Karpathy-inspired coding-agent guidelines packaged as an installable cross-agent skill for Claude Code, Codex, Cursor, Gemini, OpenCode, OpenClaw, and more
 
 ### Content Creation
 
