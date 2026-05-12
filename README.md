@@ -230,6 +230,7 @@ skillhub upgrade # 升级已安装的技能
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：生成和优化 AI 人像文生图提示词
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
+-   [html-anything](https://github.com/clockless-org/html-anything)：任意文件 / 导出 / 链接 → 单文件 HTML 网页，16 个设计系统自动选（教学站、地图册、时间线、关系图、document、developer 等），跨 Claude Code / Codex / Cursor / Windsurf；[在线 demo 廊](https://clockless-org.github.io/html-anything/examples/)
 
 ### 产品使用
 
