@@ -219,6 +219,7 @@ skillhub upgrade # 升级已安装的技能
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
 -   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+-   [recsys-pipeline-architect](https://github.com/mturac/recsys-pipeline-architect)：基于 xAI 开源 X For You 算法的六阶段 Source→Hydrator→Filter→Scorer→Selector→SideEffect 框架，设计可组合的推荐、排序与 feed 流水线。附 Strapi v5（TypeScript）、Go（generics）、Python/FastAPI 三套可运行脚手架（共 9/9 测试通过）
 
 
 ### 内容创作
