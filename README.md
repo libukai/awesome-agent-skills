@@ -225,6 +225,7 @@ skillhub upgrade # 升级已安装的技能
 
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉的自用 SKills 集合，包括公众号写作、PPT 制作等
 -   [libukai](https://github.com/libukai/awesome-agent-skills): Obsidian 相关技能集合，专门适配 Obsidian 的写作场景
+-   [sequenzy-email-marketing](https://github.com/Sequenzy/skills/tree/main/skills/sequenzy-email-marketing)：Sequenzy 邮件营销和交易/产品邮件工作流技能，支持订阅者、活动、序列、模板和发送检查
 -   [op7418](https://github.com/op7418)：歸藏创作的高质量 PPT 制作、Youtube 分析技能
 -   [cclank](https://github.com/cclank/news-aggregator-skill)：自动抓取和总结指定领域的最新资讯
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：生成和优化 AI 人像文生图提示词
