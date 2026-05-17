@@ -89,6 +89,8 @@ npx skills remove [skill-name]                   # 卸载技能
 
 如果有科学上网的能力，且使用官方版本 OpeClaw，推荐使用官方的 [ClawHub](https://clawhub.com/) 商店，提供的技能更偏技术向且包含了大量海外产品的整合。
 
+如果你更需要按分类和使用场景浏览公开的 OpenClaw 社区技能，也可以参考 [Remote OpenClaw](https://www.remoteopenclaw.com/skills/openclaw) 提供的 OpenClaw 技能目录。
+
 ```bash
 npx clawhub search [query]          # 搜索相关技能
 npx clawhub explore                 # 浏览技能市场

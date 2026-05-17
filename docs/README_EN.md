@@ -89,6 +89,8 @@ npx skills remove [skill-name]                   # Uninstall skills
 
 If you have access to international networks and use the official OpenClaw version, it is recommended to use the official [ClawHub](https://clawhub.com/) marketplace, which provides more technical-oriented skills and includes integration with many overseas products.
 
+If you want a directory-first view of public OpenClaw community skills with category and use-case filtering, you can also browse [Remote OpenClaw](https://www.remoteopenclaw.com/skills/openclaw).
+
 ```bash
 npx clawhub search [query]          # Search for related skills
 npx clawhub explore                 # Browse the marketplace
