@@ -237,6 +237,7 @@ skillhub upgrade # 升级已安装的技能
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
+-   [reading-widget](https://github.com/TinaDu-AI/reading-widget)：把微信读书数据渲染成 macOS 桌面小卡片（streak / 今日时长 / 在读书 / 金句），通过 Übersicht 悬浮在桌面壁纸层
 
 ### 其他类型
 
