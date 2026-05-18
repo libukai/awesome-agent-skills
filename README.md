@@ -219,6 +219,7 @@ skillhub upgrade # 升级已安装的技能
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
 -   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+-   [bilig-workpaper](https://github.com/proompteng/bilig/tree/main/skills/bilig-workpaper)：公式驱动的 WorkPaper 技能，帮助 Agent 编辑单元格、重新计算、回读校验并持久化 JSON 工作簿逻辑
 
 
 ### 内容创作
