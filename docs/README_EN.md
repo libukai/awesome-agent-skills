@@ -220,6 +220,7 @@ skillhub upgrade                  # Upgrade installed skills
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review): Code review skills
 -   [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier): Code simplification skills
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands): Git commit skills
+-   [bilig-workpaper](https://github.com/proompteng/bilig/tree/main/skills/bilig-workpaper): Formula WorkPaper skill for agents to edit cells, recalculate, verify readback, and persist JSON workbook logic
 
 ### Content Creation
 
