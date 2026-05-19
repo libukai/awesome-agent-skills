@@ -219,6 +219,7 @@ skillhub upgrade # 升级已安装的技能
 -   [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)：代码审查技能
 -   [code-simplifier](hhttps://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)：代码简化技能
 -   [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)：Git 提交技能
+-   [agenttrace-session-audit](https://github.com/luoyuctl/agenttrace/tree/master/skills/agenttrace-session-audit)：审计 Claude Code、Codex CLI、Gemini CLI、Aider、Cursor 等 Agent 会话的成本、Token、延迟、失败和健康度
 
 
 ### 内容创作
