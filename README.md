@@ -278,7 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
-
+-  [cumcm](https://github.com/liuhaolin07/cumcm)：经实战验证的数模竞赛 AI 工作流技能库（24 个技能覆盖审题、建模、代码、出图、论文写作、评审与 AI 申报合规，含门禁校验与结构一致性 CI）
 
 ## 安全审查
 
