@@ -332,4 +332,5 @@ Skill 评估可以分为两个维度：**`description` 评估**检查 Agent 在�
 
 ## 项目历史
 
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases. `npx skills add mblode/agent-skills`
 [![](assets/media/20260805233809.png)](https://www.star-history.com/?repos=libukai%2Fawesome-agent-skills&type=date&legend=top-left)
