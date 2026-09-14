@@ -249,6 +249,7 @@ gh skill publish                                 # 校验并发布技能
 -   [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)：前端设计技能
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：更精致和个性化的 UI/UX 设计
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
+-   [ui-design-agent-kit](https://github.com/muzimu217/ui-design-agent-kit)：项目级 UI 设计工作流：先查真实参考、冻结计划并经用户确认，再按设计契约实现，最后用真实浏览器截图验收；内置 33 个已核验素材源灵感库与 11 个成品案例（2 个 3D 可在线试玩）
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
 
