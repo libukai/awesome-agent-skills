@@ -320,6 +320,7 @@ Skill 评估可以分为两个维度：**`description` 评估**检查 Agent 在�
 
 - [SkillsBench](https://www.skillsbench.ai/)：跨领域评测 Skill 实际增益的基准与排行榜
 - [microsoft/waza](https://github.com/microsoft/waza)：创建、测试、度量和改进 Agent Skills
+- [SkillGuard](https://github.com/la2278647-arch/skillguard)：Agent Skills 质量保障框架——静态校验、沙箱测试、质量评分与 CI 门禁
 - [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)：基于轨迹与验证集的 Skill 文本优化
 - [alibaba/skill-up](https://github.com/alibaba/skill-up)：Agent Skill 评测与演化工具
 - [rpamis/comet](https://github.com/rpamis/comet)：把想法迭代为经过评测的 Agent 工作流
