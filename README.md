@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [universal-examprep-skill](https://github.com/ZeKaiNie/universal-examprep-skill)：面向复杂教材的多模态真实资料主动学习智能体。自研底层 PDF 矢量图元裁剪，讲到哪张图就展示哪张图；作业与真题自动正则配对考核；退出码级硬性防幻觉与跨会话长期记忆；实测千页大学教材，轻量小模型也能零幻觉授课。
 
 
 ## 安全审查
