@@ -253,6 +253,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉の個人用 Skills コレクション（WeChat 記事執筆、PPT 作成など）
 -   [libukai](https://github.com/libukai/awesome-agent-skills)：Obsidian 関連スキルコレクション、Obsidian の執筆シーンに特化
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)：高品質な HTML スライド生成
+-   [docx-formatter](https://github.com/CP-here/docx-formatter-skill)：Markdown をプロ仕様の中国語 Word (.docx) に組版。ネイティブ編集可能な OMML 数式・フロー図・目次・GB/T 7714 引用に対応。コア機能は python-docx のみに依存
 -   [cclank](https://github.com/cclank/news-aggregator-skill)：指定分野の最新情報を自動収集・要約
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：AI 人物画像テキスト生成プロンプトを生成・最適化
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)：X のインフルエンサーが自身のツイートをもとに制作したコンテンツ制作フレームワーク

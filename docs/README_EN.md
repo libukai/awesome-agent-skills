@@ -120,7 +120,7 @@ npx skills remove [skill-name]                   # Uninstall skills
 npx skills init [skill-name]                     # Create a skill template
 ```
 
-The current `skills` CLI supports more than 70 Agents and lets you choose project or global scope, target Agents, and copy or symbolic-link installation. See [vercel-labs/skills](https://github.com/vercel-labs/skills) for current parameters.
+The current `skills` CLI supports more than 70 Agents and lets you choose project or global scope, target Agent, and copy or symbolic-link installation. See [vercel-labs/skills](https://github.com/vercel-labs/skills) for current parameters.
 
 If version pinning and supply-chain provenance matter more, GitHub CLI 2.90.0 and later provide the public-preview `gh skill` commands:
 
@@ -253,6 +253,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat article writing, PPT creation, etc.
 -   [libukai](https://github.com/libukai/awesome-agent-skills): Obsidian-related skill collection, tailored for Obsidian writing workflows
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): Polished HTML slide-deck generation
+-   [docx-formatter](https://github.com/CP-here/docx-formatter-skill): Typesets Markdown into professional Chinese Word (.docx) with natively editable OMML equations, flow diagrams, TOC, and GB/T 7714 citations; main functionality requires only python-docx
 -   [cclank](https://github.com/cclank/news-aggregator-skill): Automatically fetch and summarize the latest news in specified domains
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator): Generate and optimize AI portrait text-to-image prompts
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets

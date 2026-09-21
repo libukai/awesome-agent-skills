@@ -258,6 +258,7 @@ gh skill publish                                 # 校验并发布技能
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉的自用 SKills 集合，包括公众号写作、PPT 制作等
 -   [libukai](https://github.com/libukai/awesome-agent-skills): Obsidian 相关技能集合，专门适配 Obsidian 的写作场景
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)：歸藏创作的 HTML 幻灯片生成技能
+-   [docx-formatter](https://github.com/CP-here/docx-formatter-skill)：将 Markdown 排版为专业中文 Word 文档，原生可编辑 OMML 公式、流程图、自动目录与 GB/T 7714 引用，核心功能仅依赖 python-docx
 -   [cclank](https://github.com/cclank/news-aggregator-skill)：自动抓取和总结指定领域的最新资讯
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：生成和优化 AI 人像文生图提示词
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
