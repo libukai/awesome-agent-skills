@@ -272,6 +272,7 @@ gh skill publish                                 # Validate and publish a Skill
 -  [pua](https://github.com/tanweai/pua): Drive AI to work harder in a PUA style
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
+-   [marketing-mindset](https://github.com/axelfreeman/marketing-mindset): A marketer's decision framework — how much volume a test needs before its result means anything, when to kill a channel, and cold outreach for the first clients
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
 
 ## Security Audit

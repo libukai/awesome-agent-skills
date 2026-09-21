@@ -272,6 +272,7 @@ gh skill publish                                 # Skill を検証して公開
 -  [pua](https://github.com/tanweai/pua)：PUA スタイルで AI をより一生懸命働かせる
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：YC の視点から様々な起業アドバイスを提供
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：マーケティング能力を強化
+-   [marketing-mindset](https://github.com/axelfreeman/marketing-mindset)：マーケティング意思決定フレームワーク — テスト結果が意味を持つ最小ボリューム、チャネル撤退の判断基準、最初の顧客獲得のためのアウトリーチ
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)：研究者のスキルを向上
 
 ## セキュリティ監査
