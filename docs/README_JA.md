@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [birdview](https://github.com/Qiuner/birdview)：プログラミングは次第にアーキテクチャと制約へ収束するという思想に基づき、変更範囲と検証結果を含めてコーディング前にレビュー可能にする
 
 ### コンテンツ制作
 

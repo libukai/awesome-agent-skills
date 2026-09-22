@@ -251,6 +251,7 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
+-   [birdview](https://github.com/Qiuner/birdview)：相信编程将逐渐只剩架构与约束，并在编码前将二者连同修改范围和验证结果变成可审查的交互式 HTML
 
 
 ### 内容创作
