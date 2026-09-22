@@ -251,7 +251,9 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
-
+-   [oneroster-csv-validator](https://github.com/wwewtech/oneroster-csv-validator)：1EdTech / IMS Global OneRoster 1.1/1.2 CSV 关系数据与外键完整性校验技能
+-   [marlin-bed-leveling](https://github.com/wwewtech/marlin-bed-leveling)：Marlin 2.x 3D 打印机网格床面调平分析与探针重复性校验技能
+-   [esl-price-sync](https://github.com/wwewtech/esl-price-sync)：电子价签 (ESL) 零售价格同步与排队通信审计技能
 
 ### 内容创作
 
@@ -271,6 +273,9 @@ gh skill publish                                 # 校验并发布技能
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
+-   [chatexport-need-miner](https://github.com/wwewtech/chatexport-need-miner)：离线 Telegram 聊天导出数据挖掘与 JTBD 用户付费意愿分析技能
+-   [dali-short-address-commissioner](https://github.com/wwewtech/dali-short-address-commissioner)：IEC 62386 DALI / DALI-2 智能照明总线寻址与冲突仲裁技能
+-   [eol-resistor-calculator](https://github.com/wwewtech/eol-resistor-calculator)：安防报警主机终端电阻 (EOL/DEOL/TEOL) 回路分压与防拆计算器技能
 
 ### 其他类型
 
