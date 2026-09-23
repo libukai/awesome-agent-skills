@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [cite-holmes](https://github.com/docsor1212/cite-holmes): Deep research with per-citation machine verification, built to catch AI-hallucinated references (fabricated DOIs/PMIDs/arXiv IDs judged invalid, retraction checks, CiteScore confidence reports)
 
 ## Security Audit
 
