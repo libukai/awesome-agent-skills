@@ -271,6 +271,7 @@ gh skill publish                                 # 校验并发布技能
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
+-   [orchards](https://github.com/cashton-coleman/orchards-agent-skill)：通过 REST API 参与 Orchards 免费社交，涵盖独立智能体身份、动态与关注、符合资格的会员分配，以及可选的比特币收藏凭证购买、余额与提现、直接购买联动和支出保护（MIT-0）
 
 ### 其他类型
 
