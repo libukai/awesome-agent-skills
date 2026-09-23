@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [cite-holmes](https://github.com/docsor1212/cite-holmes)：深度调研+逐条引用机器验真，专治 AI 幻觉引用（编造 DOI/假 PMID/假 arXiv 判 invalid、撤稿检测、CiteScore 置信度报告）
 
 
 ## 安全审查
