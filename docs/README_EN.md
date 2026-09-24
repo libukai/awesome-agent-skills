@@ -266,6 +266,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage): Manage local Skills across multiple agent hosts
+-   [Jev Social](https://github.com/socai-io/jev-social): Let Jev select bounded read-only social research actions, run them through the local socai CLI in the user's existing browser session, and produce a source-linked evidence report
 
 ### Other Types
 

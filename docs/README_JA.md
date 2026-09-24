@@ -266,6 +266,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：n8n ワークフローを作成
 -   [threejs](https://github.com/cloudai-x/threejs-skills)：Three.js プロジェクト開発を支援
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：複数の Agent ホスト間でローカル Skills を管理
+-   [Jev Social](https://github.com/socai-io/jev-social)：Jev が読み取り専用のソーシャル調査アクションを選択し、ローカルの socai CLI がユーザーの既存ブラウザーセッションで実行して、出典リンク付きの証拠レポートを生成
 
 ### その他
 
