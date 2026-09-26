@@ -257,6 +257,7 @@ gh skill publish                                 # 校验并发布技能
 
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉的自用 SKills 集合，包括公众号写作、PPT 制作等
 -   [libukai](https://github.com/libukai/awesome-agent-skills): Obsidian 相关技能集合，专门适配 Obsidian 的写作场景
+-   [youtube-transcript-skills](https://github.com/tubeagentkit/youtube-transcript-skills)：通过 getyoutubetranscript.com 免费 API 获取 YouTube 字幕、搜索视频/频道、浏览频道并提取播放列表，同时也提供 MCP 服务
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)：歸藏创作的 HTML 幻灯片生成技能
 -   [cclank](https://github.com/cclank/news-aggregator-skill)：自动抓取和总结指定领域的最新资讯
 -   [huangserva](https://github.com/huangserva/skill-prompt-generator)：生成和优化 AI 人像文生图提示词
