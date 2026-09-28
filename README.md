@@ -270,6 +270,7 @@ gh skill publish                                 # 校验并发布技能
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
+-   [omentir](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach)：通过 Omentir MCP 做 LinkedIn 获客，寻找并评估潜在客户、起草外联消息，Agent 无需登录 LinkedIn
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
 
 ### 其他类型
