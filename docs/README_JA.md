@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [agenttrace-session-audit](https://github.com/luoyuctl/agenttrace/tree/master/skills/agenttrace-session-audit)：Claude Code、Codex CLI、Gemini CLI、Aider、Cursor などの Agent セッションのコスト、Token、遅延、失敗、健康度を監査
 
 ### コンテンツ制作
 
