@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [agent-skills-en](https://github.com/alapha888/agent-skills-en)：5 个英文效率类 Agent Skills（技术写作校对、Git 提交信息、会议纪要、五轴代码审查、深度研究框架），MIT 开源
 
 
 ## 安全审查
