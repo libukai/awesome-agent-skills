@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [game-character-culture-review](https://github.com/Sharkspare-bnn/game-character-culture-review)：中国游戏出海的角色设定文化预审，从文化符号、跨语言命名、分级法规、当地受众预期四层预判海外市场风险
 
 
 ## 安全审查
