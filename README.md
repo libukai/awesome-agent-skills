@@ -272,6 +272,8 @@ gh skill publish                                 # 校验并发布技能
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
 
+-   [Shipvela Publish](https://github.com/stefanautomateed/shipvela-codex/tree/main/plugins/shipvela/skills/publish)：通过 OAuth MCP 连接发布静态网站，发布前由用户审核文件，并查询部署状态和日志；需要 Shipvela 账户（免费 Hobby 计划含 3 个项目、每月 20 次发布）
+
 ### 其他类型
 
 -  [pua](https://github.com/tanweai/pua)：以 PUA 的方式驱动 AI 更卖力的干活
