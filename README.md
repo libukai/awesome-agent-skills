@@ -271,7 +271,7 @@ gh skill publish                                 # 校验并发布技能
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
--   [agent-skill-manager](https://github.com/yxdwind/agent-skill-manager)：跨平台（macOS/Windows）管理 9 个国产 AI Agent 产品的 Skill 同步与分发
+-   [agent-skill-manager](https://github.com/yxdwind/agent-skill-manager)：跨平台（macOS/Windows/Linux）以中央仓库 + symlink/junction 一键同步 Skill 到 15 个国产 AI Agent 产品，内置零依赖安全评测（提示注入 / 危险代码 / 敏感信息，A–F 评分）
 
 ### 其他类型
 
