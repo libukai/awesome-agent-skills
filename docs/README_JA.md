@@ -266,6 +266,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：n8n ワークフローを作成
 -   [threejs](https://github.com/cloudai-x/threejs-skills)：Three.js プロジェクト開発を支援
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：複数の Agent ホスト間でローカル Skills を管理
+-   [Arcmira: YouTube Transcript Search](https://github.com/arcmira/mcp/tree/master/plugins/arcmira)：インデックス済みの YouTube 文字起こしを検索し、タイムスタンプ付きの引用、人物の出演、スポンサー情報を調べる
 
 ### その他
 
