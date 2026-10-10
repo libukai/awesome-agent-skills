@@ -273,6 +273,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：YC の視点から様々な起業アドバイスを提供
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：マーケティング能力を強化
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)：研究者のスキルを向上
+-   [url-to-markdown](https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown)：公開ウェブページを LLM コンテキスト用のクリーンな Markdown に変換
 
 ## セキュリティ監査
 
