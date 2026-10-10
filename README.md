@@ -251,7 +251,7 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
--   [reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything)：使用 REA CLI/MCP 分析已发布的二进制与 JavaScript/Electron 应用，保留证据与未知项；原生深度分析需自备 Hopper、Ghidra 或 IDA
+-   [reverse-engineer-anything](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything)：使用 REA CLI/MCP 分析已发布的二进制与 JavaScript/Electron 应用，保留证据与未知项；原生深度分析需自备 Hopper、Ghidra 或 IDA
 
 
 ### 内容创作
