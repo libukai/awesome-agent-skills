@@ -251,6 +251,8 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
+-   [tastegate](https://github.com/stas4000/tastegate)：先定设计方向再按工艺标准实现，最后用内置的 Playwright 在手机和桌面宽度渲染页面，对元素重叠、横向滚动、对比度不足和AI 默认样式直接判定失败
+-   [what-could-break](https://github.com/stas4000/what-could-break)：追踪一次改动在调用方、已存数据和重复规则上的影响范围，然后为关键假设设计一个可运行的验证
 
 
 ### 内容创作
