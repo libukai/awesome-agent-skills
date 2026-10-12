@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [mcd-archive](https://github.com/BonChanxxx/mcd-archive)：把麦当劳账户数据（订单/门票/积分/成就）经官方 MCP 生成可截图分享的数据档案
 
 
 ## 安全审查
