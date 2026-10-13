@@ -278,7 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
-
+-   [hermes-skills](https://github.com/jiawood2006/hermes-skills)：9 个中文优先的实用 Agent Skills（抖音/快手视频转文字、本地 OCR、去 AI 味改写、电商素材工坊、微信语音转文字、多 Agent 小说流水线等），每个技能都带 SKILL.md 与可运行脚本，MIT 开源
 
 ## 安全审查
 
