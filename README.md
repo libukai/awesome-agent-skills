@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [decision-scout](https://github.com/jmsjbeb/decision-scout)：重大决策前先探图，把「我该怎么办」拆成资产审计 → 3-5 条路径铺开与三视角交叉 → 三项评分 → 30 天行动清单，附零依赖仪表盘脚本
 
 
 ## 安全审查
