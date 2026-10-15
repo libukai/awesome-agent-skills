@@ -251,6 +251,7 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
+-   [openhook](https://github.com/openhook-dev/openhook-inbox/tree/main/skills/openhook)：通过 MCP 或 REST 创建 Webhook 收件箱、检查回调内容并将事件转发到本地处理程序
 
 
 ### 内容创作

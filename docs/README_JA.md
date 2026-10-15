@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [openhook](https://github.com/openhook-dev/openhook-inbox/tree/main/skills/openhook)：MCP または REST で Webhook 受信箱を作成し、コールバックを確認してローカルハンドラーに転送
 
 ### コンテンツ制作
 
