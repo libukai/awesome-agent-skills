@@ -278,6 +278,8 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [takeout-coupon](https://github.com/moooai/takeout-coupon)：外卖优惠券 Skill：一键获取美团、饿了么/淘宝闪购、京东外卖红包与隐藏口令（@moooai 另有出行 [trip-coupon](https://github.com/moooai/trip-coupon)、电影 [movie-coupon](https://github.com/moooai/movie-coupon)、快递 [parcel-coupon](https://github.com/moooai/parcel-coupon) 配套仓库）
+-   [obtain-coupons-all-in-one](https://github.com/moooai/obtain-coupons-all-in-one)：全家桶优惠券 Skill：外卖、出行、电影、快递一站领取
 
 
 ## 安全审查
