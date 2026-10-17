@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [berlin-market-data](https://github.com/magicSEO/eigenheim-mcp/tree/main/skills/berlin-market-data)：查询柏林房地产数据（每平方米价格、租金回报率、土地基准价、人口预测），基于免费只读 MCP
 
 
 ## 安全审查
