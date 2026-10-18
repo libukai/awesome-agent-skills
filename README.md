@@ -264,6 +264,8 @@ gh skill publish                                 # 校验并发布技能
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：把书、视频和播客蒸馏为可执行的 Agent Skills
 
+-   [story-bible-continuity](https://github.com/jiawood2006/story-bible-continuity)：长篇小说的连续性校验，对照故事设定检查人名漂移、年龄矛盾、时代穿帮与未回收伏笔
+
 ### 产品使用
 
 -   [wps](https://github.com/wpsnote/wpsnote-skills)：操控 WPS 办公软件
