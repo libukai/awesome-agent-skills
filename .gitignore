@@ -19,3 +19,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+config.bat
+node_modules

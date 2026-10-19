@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [solaris-dev-shop](https://github.com/Shaisolaris/solaris-dev-shop): 61 portable specialist skills with searchable discovery and an explainable deterministic task router. Free under MIT.
 
 ## Security Audit
 
