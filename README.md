@@ -271,6 +271,7 @@ gh skill publish                                 # 校验并发布技能
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
+-   [datawebot](https://github.com/datawebot/datawebot-mcp/tree/main/skills/datawebot)：通过托管的 datawebot MCP 服务查询电商商品数据，跨在线商店搜索商品、列出每个卖家的价格和直达链接，并对 Amazon 与 Shopify 运行数据提取任务
 
 ### 其他类型
 
