@@ -266,6 +266,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：n8n ワークフローを作成
 -   [threejs](https://github.com/cloudai-x/threejs-skills)：Three.js プロジェクト開発を支援
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：複数の Agent ホスト間でローカル Skills を管理
+-   [datawebot](https://github.com/datawebot/datawebot-mcp/tree/main/skills/datawebot)：ホスト型の datawebot MCP サーバーで EC 商品データを取得。オンラインショップを横断した商品検索、販売者ごとの価格と直接リンクの一覧、Amazon と Shopify の抽出ジョブに対応
 
 ### その他
 
