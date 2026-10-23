@@ -251,6 +251,7 @@ gh skill publish                                 # 校验并发布技能
 -   [archify](https://github.com/tt-a1i/archify)：生成可验证、可导出的架构图与流程图
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：面向 CAD、CAE 与 CAM 的工程技能库
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：跨平台桌面应用的原生体验设计指南
+-   [doomsday-network](https://github.com/doomsday-network/doomsday)：面向 AI Agent 的自托管 Layer-1 `DOOM` 与 Base `wDOOM` 链上支付、防重放发票验证（`create_l1_invoice` / `verify_l1_payment`）及 GitHub 悬赏金托管验证技能与 MCP 服务
 
 
 ### 内容创作
