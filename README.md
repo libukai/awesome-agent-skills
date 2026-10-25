@@ -250,6 +250,7 @@ gh skill publish                                 # Validate and publish a Skill
 
 ### Content Creation
 
+-   [onboard](https://github.com/Keviniscool-boy/onboard)：把交接材料（代码/文档/PDF/Excel/PPT）拆成带出处的项目总览和三档学习路径；理解目标带学，README 等交付目标直接应用，规则经陌生 agent 实测
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat article writing, PPT creation, etc.
 -   [libukai](https://github.com/shikaijiaoyu/awesome-agent-skills): Obsidian-related skill collection, tailored for Obsidian writing workflows
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): Polished HTML slide-deck generation
