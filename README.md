@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [us-watchlist-alerts](https://github.com/eli-alvarado/us-watchlist-alerts): Free US stock watchlists, price alerts and daily briefs; no API key, NYSE-holiday aware
 
 ## Security Audit
 

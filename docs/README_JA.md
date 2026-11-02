@@ -273,6 +273,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：YC の視点から様々な起業アドバイスを提供
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：マーケティング能力を強化
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)：研究者のスキルを向上
+-   [us-watchlist-alerts](https://github.com/eli-alvarado/us-watchlist-alerts)：無料の米国株ウォッチリスト、価格アラート、日次ブリーフ。API key 不要、NYSE 休場日に対応
 
 ## セキュリティ監査
 

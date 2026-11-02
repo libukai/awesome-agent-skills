@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [us-watchlist-alerts](https://github.com/eli-alvarado/us-watchlist-alerts)：免费的美股自选股、价格提醒与每日简报，无需 API key，识别纽交所休市日
 
 
 ## 安全审查
