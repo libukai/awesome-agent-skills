@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [ponder](https://github.com/Quinnod345/ponder)：カバレッジゲートを備えた4視点コードレビュー収束ループ（懐疑派、構築者、夢想家、共感者）
 
 ### コンテンツ制作
 
