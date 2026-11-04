@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [deja-vu](https://github.com/vshulcz/deja-vu)：Claude Code、Codex、Cursor、OpenCode など 40 以上のコーディングエージェントを横断するローカル履歴検索・記憶スキル（`deja-search`、`deja-reflect`）
 
 ### コンテンツ制作
 
