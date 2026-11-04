@@ -247,6 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [deja-vu](https://github.com/vshulcz/deja-vu): Local cross-agent memory and session search skills (`deja-search`, `deja-reflect`) across Claude Code, Codex, Cursor, OpenCode, and 40+ coding agents
 
 ### Content Creation
 
