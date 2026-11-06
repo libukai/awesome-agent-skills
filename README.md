@@ -261,6 +261,8 @@ gh skill publish                                 # Validate and publish a Skill
 
 ### Product Usage
 
+-   [Sequenzy](https://github.com/Sequenzy/skills): Manage subscribers, email campaigns, automation sequences and transactional email; requires a Sequenzy account and API access
+
 -   [wps](https://github.com/wpsnote/wpsnote-skills): Control WPS office software
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py): Control NotebookLM
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
