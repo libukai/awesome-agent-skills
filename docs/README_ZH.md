@@ -263,6 +263,7 @@ gh skill publish                                 # 校验并发布技能
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：把书、视频和播客蒸馏为可执行的 Agent Skills
+-   [dyz-gongwen-skills](https://github.com/duyunzhoudyz/dyz-gongwen-skills)：面向机关事业单位和国企文字工作者的公文写作 Skills 集合，覆盖起草、改稿、核稿和 GB/T 9704 国标排版，含 5 个行业包
 
 ### 产品使用
 

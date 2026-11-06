@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [dyz-gongwen-skills](https://github.com/duyunzhoudyz/dyz-gongwen-skills): Chinese official-document (gongwen) writing Skills for government, public-institution and SOE staff, covering drafting, revision, review and GB/T 9704 formatting, with 5 industry packs
 
 ### Product Usage
 
