@@ -247,6 +247,8 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [vulnify-guard-actions](https://github.com/vulnify/vulnify-examples/tree/main/skills/vulnify-guard-actions): Ask Vulnify (ALLOW / REVIEW / BLOCK) before consequential tool use
+
 
 ### Content Creation
 
