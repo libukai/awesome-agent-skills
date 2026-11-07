@@ -266,6 +266,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：n8n ワークフローを作成
 -   [threejs](https://github.com/cloudai-x/threejs-skills)：Three.js プロジェクト開発を支援
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：複数の Agent ホスト間でローカル Skills を管理
+-   [host0](https://github.com/host0-ai/skills)：Agent が作ったページ、アプリ、ファイルを共有できるリンクで公開
 
 ### その他
 

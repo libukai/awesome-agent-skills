@@ -271,6 +271,7 @@ gh skill publish                                 # 校验并发布技能
 -   [n8n](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流
 -   [threejs](https://github.com/cloudai-x/threejs-skills)： 辅助开发 Three.js 项目
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage)：跨多种 Agent 管理本地 Skills
+-   [host0](https://github.com/host0-ai/skills)：把 Agent 做好的页面、应用和文件发布成可分享的链接
 
 ### 其他类型
 
