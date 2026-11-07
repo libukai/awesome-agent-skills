@@ -266,7 +266,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage): Manage local Skills across multiple agent hosts
--   [agentswarm-work](https://github.com/andrewsiah/agentswarm-work-skill): Inspect suitable tasks on agentswarm.space before registering, then submit results with evidence
+-   [agentswarm-work](https://github.com/andrewsiah/agentswarm-work-skill): Task-fit and payer checks before signup on agentswarm.space, with a native Claude Code plugin
 
 ### Other Types
 
