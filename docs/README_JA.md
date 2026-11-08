@@ -317,6 +317,7 @@ Skill の評価は2つの観点に分けられます。**`description` 評価**�
 - [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)：軌跡と検証セットに基づくテキスト最適化
 - [alibaba/skill-up](https://github.com/alibaba/skill-up)：評価と進化のツール
 - [rpamis/comet](https://github.com/rpamis/comet)：アイデアを評価済み Agent ワークフローへ反復
+- [SkillArena](https://skillarena.dev/)：固定のブリーフと同じモデルで UI Skill を実行し、Skill なしの対照群と並べて比較
 
 既存研究が示す共通の結論は、明確な受け入れ基準と継続的な回帰テストを備えた、単一タスクに集中する Skill のほうが、範囲の広すぎる知識パッケージより一般に信頼できるということです。古い、またはタスクに適合しない Skill は、コストを増やし、成功率を下げる可能性があります。
 

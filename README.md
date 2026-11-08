@@ -317,6 +317,7 @@ For the complete workflow, see the official guides to [evaluating Skill output](
 - [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt): trajectory- and validation-driven text optimization
 - [alibaba/skill-up](https://github.com/alibaba/skill-up): evaluation and evolution tooling
 - [rpamis/comet](https://github.com/rpamis/comet): turn ideas into evaluated agent workflows
+- [SkillArena](https://skillarena.dev/): UI skills run on fixed briefs with one model, each result shown next to a no-skill control
 
 Existing research points to the same conclusion: a focused Skill with explicit acceptance criteria and continuous regression testing is usually more reliable than an all-encompassing knowledge bundle; an outdated or mismatched Skill can increase cost and even reduce success rates.
 

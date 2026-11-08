@@ -323,6 +323,7 @@ Skill 评估可以分为两个维度：**`description` 评估**检查 Agent 在�
 - [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)：基于轨迹与验证集的 Skill 文本优化
 - [alibaba/skill-up](https://github.com/alibaba/skill-up)：Agent Skill 评测与演化工具
 - [rpamis/comet](https://github.com/rpamis/comet)：把想法迭代为经过评测的 Agent 工作流
+- [SkillArena](https://skillarena.dev/)：用固定需求和同一模型运行 UI Skill，每个结果都和不装 Skill 的对照组并排展示
 
 现有研究的共同结论是：聚焦单一任务、带明确验收标准和持续回归的 Skill，通常比大而全的知识包更可靠；过时或不匹配的 Skill 可能增加成本甚至降低成功率。
 
