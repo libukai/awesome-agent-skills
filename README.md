@@ -152,6 +152,8 @@ gh skill publish                                 # Validate and publish a Skill
 - @Eze: [Agent Skills Ultimate Guide: Getting Started, Mastery, and Predictions](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
 - @deeptoai: [Claude Agent Skills First Principles Deep Dive](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
 
+- @agentskillsguide: [How to write a SKILL.md that validates, loads and is granted](https://agentskillsguide.dev/how-to-write-a-skill-md)
+
 ### Video Tutorials
 
 - @Mark's Tech Workshop: [Agent Skill: From Usage to Principles, All in One](https://www.youtube.com/watch?v=yDc0_8emz7M)
