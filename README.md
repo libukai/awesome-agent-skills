@@ -244,6 +244,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [superpowers](https://github.com/obra/superpowers): Complete programming project workflow
 -   [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design): Frontend design skills
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): More refined and personalized UI/UX design
+-   [agentsmd](https://github.com/kelegele/agentsmd-skill): Solidify session lessons into AGENTS.md rules, with lean and dedupe discipline
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
