@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [HoneyVid](https://github.com/HoneyVid/skills): Make AI videos and images with HoneyVid via its remote MCP server or CLI: put a person, pet or character into a trending video template, or generate with Kling, Veo and Seedance
 
 ### Product Usage
 
