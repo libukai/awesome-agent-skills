@@ -274,6 +274,11 @@ gh skill publish                                 # Validate and publish a Skill
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
 
+### E-commerce
+
+-   [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills): E-commerce skills for product research, marketing, and operations across Amazon, Shopify, TikTok Shop, and more
+-   [Amazon-Skills](https://github.com/nexscope-ai/Amazon-Skills): Free Amazon seller skills for keyword research, competitor analysis, listing audits, and more
+
 ## Security Audit
 
 Skills are not passive documentation: descriptions influence discovery, instructions change agent behavior, and scripts may access files, networks, credentials, and external accounts. Review six layers of risk: provenance, content, dependencies, permissions, runtime, and updates.
