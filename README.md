@@ -272,6 +272,7 @@ gh skill publish                                 # Validate and publish a Skill
 -  [pua](https://github.com/tanweai/pua): Drive AI to work harder in a PUA style
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
+-   [game-theory-for-decisions](https://github.com/diaryofamademan/skills/tree/main/game-theory-for-decisions): Map the players, payoffs, information, and sequence of any contested decision, then choose the best move or change the game
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
 
 ## Security Audit
