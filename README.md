@@ -259,6 +259,8 @@ gh skill publish                                 # Validate and publish a Skill
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
 
+-   [omnicreator](https://github.com/wangneo276-lgtm/omnicreator-mcp): Use Omni Creator (https://omnicreator.art), an AI Photo Editor Online free to try
+
 ### Product Usage
 
 -   [wps](https://github.com/wpsnote/wpsnote-skills): Control WPS office software
