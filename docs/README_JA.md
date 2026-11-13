@@ -258,6 +258,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)：X のインフルエンサーが自身のツイートをもとに制作したコンテンツ制作フレームワーク
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：執筆から公開まで AI 支援の WeChat 記事作成
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：書籍、動画、ポッドキャストを実行可能な Agent Skills に蒸留
+-   [Kling AI Plugin Skill (Global)](https://www.npmjs.com/package/@klingai/plugin-global) / [China](https://www.npmjs.com/package/@klingai/plugin-cn)：CLI を同梱した公式の画像・動画生成とタスク追跡 Skill。対応地域の OAuth アカウントとクレジットが必要。
 
 ### 製品活用
 
