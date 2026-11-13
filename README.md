@@ -107,6 +107,8 @@ Use the [skillsmp](https://skillsmp.com/zh) marketplace to discover Skill projec
 
 You can also use Vercel's [skills.sh](https://skills.sh/) leaderboard to intuitively view the most popular Skills repositories and individual Skill usage.
 
+For visual / product-shipping skills (landing pages, slides, images, launch motion), browse [HowAI](https://howai.build).
+
 For a specific Skill, use the `npx skills` command-line tool to quickly discover, add, and manage it. For detailed parameters, see [vercel-labs/skills](https://github.com/vercel-labs/skills).
 
 ```bash
