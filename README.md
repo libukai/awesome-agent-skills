@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [exam-revision-handbook](https://github.com/mianbaofang/exam-revision-handbook): Source-backed GCSE/IGCSE/A-Level/AP revision handbooks with official syllabus retrieval and PDF export
 
 ### Product Usage
 
@@ -266,6 +267,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage): Manage local Skills across multiple agent hosts
+-   [agent-skill-catalog](https://github.com/mianbaofang/agent-skill-catalog): Searchable local HTML catalog for installed Agent Skills (categories, plugin grouping, GitHub previews)
 
 ### Other Types
 
@@ -273,6 +275,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [decision-journal](https://github.com/mianbaofang/decision-journal): Decision assistant that remembers — evidence, risks, next steps, and a reviewable local decision log
 
 ## Security Audit
 
