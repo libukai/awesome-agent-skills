@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [alphadrama-short-drama-skill](https://github.com/Alwzc/alphadrama-short-drama-skill): Adapt web novels into multi-episode 9:16 vertical short-drama scripts, 3-view character sheets, storyboards, and AI video prompts
 
 ### Product Usage
 

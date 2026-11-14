@@ -263,6 +263,7 @@ gh skill publish                                 # 校验并发布技能
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：把书、视频和播客蒸馏为可执行的 Agent Skills
+-   [alphadrama-short-drama-skill](https://github.com/Alwzc/alphadrama-short-drama-skill)：将网文小说改编为多集 9:16 竖屏短剧剧本、角色三视图设定、分镜表与 AI 视频提示词
 
 ### 产品使用
 
