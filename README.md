@@ -107,6 +107,8 @@ Use the [skillsmp](https://skillsmp.com/zh) marketplace to discover Skill projec
 
 You can also use Vercel's [skills.sh](https://skills.sh/) leaderboard to intuitively view the most popular Skills repositories and individual Skill usage.
 
+You can also browse [HOL Plugins](https://hol.org/plugins), a directory of plugins, skills, and MCP servers for Claude Code, Codex, Cursor, and other coding agents.
+
 For a specific Skill, use the `npx skills` command-line tool to quickly discover, add, and manage it. For detailed parameters, see [vercel-labs/skills](https://github.com/vercel-labs/skills).
 
 ```bash
