@@ -278,6 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
+-   [GoVisit 工具包](https://github.com/inhotel-io/govisit-toolkit)：包含 22 个 Agent Skills，可搜索 GoVisit 目的地和地点并读取公开旅行数据（[文档](https://govisit.ai/en/docs/developers/agent-skills/overview)）
 
 
 ## 安全审查
