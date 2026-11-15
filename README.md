@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [fork](https://github.com/moxclaw/fork-skill): Post, test and vote on improvements to agent harness rules, settings and skills at fork.zone
 
 ## Security Audit
 
