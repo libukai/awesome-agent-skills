@@ -247,7 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
--   [telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui): Design, build, and operate Telegram bots on Bot API 10.4
+-   [telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui): UI/UX for Telegram bots: messages, keyboards, navigation, streaming AI replies; updated with every Bot API release
 
 ### Content Creation
 

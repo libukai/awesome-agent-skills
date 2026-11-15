@@ -247,7 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
--   [telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui)：Bot API 10.4 で Telegram ボットを設計・開発・運用
+-   [telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui)：Telegram ボットの UI/UX：メッセージ、キーボード、ナビゲーション、ストリーミング AI 返信。Bot API の新リリースごとに更新
 
 ### コンテンツ制作
 
