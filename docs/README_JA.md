@@ -250,6 +250,7 @@ gh skill publish                                 # Skill を検証して公開
 
 ### コンテンツ制作
 
+-   [humanpen-skill](https://github.com/humanpen/humanpen-skill)：文書のリライト・翻訳・短縮・引用形式の修正に対応し、書式をできる限り維持。API キーが必要で、処理はクレジット課金。
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉の個人用 Skills コレクション（WeChat 記事執筆、PPT 作成など）
 -   [libukai](https://github.com/libukai/awesome-agent-skills)：Obsidian 関連スキルコレクション、Obsidian の執筆シーンに特化
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)：高品質な HTML スライド生成
