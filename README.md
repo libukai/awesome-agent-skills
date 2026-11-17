@@ -247,6 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [off-grid-ai/skills](https://github.com/off-grid-ai/skills): Real-app testing, design review and legacy codebase skills
 
 ### Content Creation
 
