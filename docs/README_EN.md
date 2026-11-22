@@ -248,6 +248,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
 -   [agenttrace-session-audit](https://github.com/luoyuctl/agenttrace/tree/master/skills/agenttrace-session-audit): Audit agent session cost, tokens, latency, failures, and health for Claude Code, Codex CLI, Gemini CLI, Aider, Cursor, and similar tools
+||||||| /dev/fd/12
 
 ### Content Creation
 
