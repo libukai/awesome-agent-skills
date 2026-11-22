@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [dayan-enterprise-ai-skills](https://github.com/Kosmoray/dayan-enterprise-ai-skills): 66 enterprise B2B workflow skills for contract review, bid scoring, RAG guardrails, and operations
 
 ## Security Audit
 
