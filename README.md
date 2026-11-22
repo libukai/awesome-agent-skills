@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [douyin-video-brief](https://github.com/lurcie21/douyin-video-brief): 抖音视频转逐字稿与结构化笔记：取流、抽帧、faster-whisper 转写、结构化提炼
 
 ### Product Usage
 
@@ -266,6 +267,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage): Manage local Skills across multiple agent hosts
+-   [skill-scout](https://github.com/lurcie21/skill-scout): 装 skill 之前先看清里面有什么：找仓库、查 license、扫危险调用，默认只审不装
 
 ### Other Types
 
