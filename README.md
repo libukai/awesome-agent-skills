@@ -247,6 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [flashdata-skills](https://github.com/flashdatadev/flashdata-skills): Official Agent Skills for real-time Google Search, YouTube transcripts/metadata, and cloud video downloads via hosted Remote MCP or REST API
 
 ### Content Creation
 
