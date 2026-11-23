@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [classics-guide](https://github.com/Jason-KK-kk/classics-guide): Confucian/Buddhist/Daoist classics reading companion with a 30-lesson curriculum, spaced review, 29 guided readings, 23 bundled full texts and sage-dialogue mode (Chinese)
 
 ## Security Audit
 
