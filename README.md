@@ -247,6 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [omniforge-skills](https://github.com/zColdWater/omniforge-skills): 50 zero-dependency, read-only pre-launch audit skills (web/Supabase/Next.js security, SPF/DKIM/DMARC email DNS, 78-TLD domain & USPTO checks, and `/llms.txt` AI search visibility)
 
 ### Content Creation
 

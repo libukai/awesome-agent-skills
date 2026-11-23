@@ -247,6 +247,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [archify](https://github.com/tt-a1i/archify)：検証・エクスポート可能なアーキテクチャ図とフロー図
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、CAE、CAM 向け Agent Skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill)：クロスプラットフォーム・デスクトップアプリのネイティブ体験設計
+-   [omniforge-skills](https://github.com/zColdWater/omniforge-skills)：Web/Supabase/Next.js セキュリティ、SPF/DKIM/DMARC メール DNS、78 TLD ドメイン・商標、`/llms.txt` AI 検索可視性をカバーする 50 種類のゼロ依存・読み取り専用ローンチ前監査スキル集
 
 ### コンテンツ制作
 
