@@ -250,6 +250,7 @@ gh skill publish                                 # Validate and publish a Skill
 
 ### Content Creation
 
+-   [conthunt](https://github.com/Synthenova/conthunt-mcp/tree/main/skills/conthunt): Research short-form videos using ContHunt's hosted MCP server
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat article writing, PPT creation, etc.
 -   [libukai](https://github.com/shikaijiaoyu/awesome-agent-skills): Obsidian-related skill collection, tailored for Obsidian writing workflows
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): Polished HTML slide-deck generation
