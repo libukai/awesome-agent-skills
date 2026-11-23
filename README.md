@@ -241,6 +241,7 @@ gh skill publish                                 # Validate and publish a Skill
 
 ### Programming & Development
 
+- [Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-skills/tree/main/skills/skool-communities) - Search Skool communities by keyword for members, price, rating, and daily growth.
 -   [superpowers](https://github.com/obra/superpowers): Complete programming project workflow
 -   [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design): Frontend design skills
 -   [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): More refined and personalized UI/UX design
