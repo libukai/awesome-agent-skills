@@ -278,7 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
--   [dayan-enterprise-ai-skills](https://github.com/Kosmoray/dayan-enterprise-ai-skills)：66 枚企业经营实战技能库（合同四视角审阅、投标打分闭环、兜错知识库与中文去 AI 味）
+-   [dayan-enterprise-ai-skills](https://github.com/Kosmoray/dayan-enterprise-ai-skills)：面向中文企业业务的开源技能库（合同审阅、投标检查、知识库与 ERP 改单核对）
 
 
 ## 安全审查
