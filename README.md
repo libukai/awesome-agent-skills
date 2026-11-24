@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [van-skills](https://github.com/waysvan077/van-skills): Curated library of 394 security-audited agent skills
 
 ## Security Audit
 
