@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [yuanmou-ppt-skill](https://github.com/YuanMouJun/yuanmou-ppt-skill): Zero-dependency native OOXML PowerPoint (`.pptx`) engine & skill for 1:1 visual template cloning, lossless `.pptx` deck surgery, native Excel-backed charts, and 5-gate visual QA
 
 ### Product Usage
 
