@@ -263,6 +263,8 @@ gh skill publish                                 # 校验并发布技能
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)： X 万粉大V 基于自己的推文制作的内容创作框架
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：从写作到发布的 AI 辅助公众号写作
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：把书、视频和播客蒸馏为可执行的 Agent Skills
+-   [camera-prompt-quickcheck](https://github.com/287523023qq-hue/camera-prompt-quickcheck)：5ms 零 API AI 视频运镜 Prompt 静态预检工具（支持 Runway/可灵/Sora，附在线浏览器体验版）
+-   [cinematic-shot-prompting](https://github.com/287523023qq-hue/cinematic-shot-prompting)：7 槽位好莱坞物理运镜协议生成器（已合入 claude-skills v2.14.15）
 
 ### 产品使用
 
