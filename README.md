@@ -258,6 +258,8 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [camera-prompt-quickcheck](https://github.com/287523023qq-hue/camera-prompt-quickcheck): 5ms zero-API Python pre-flight linter catching AI video camera drift & dolly-vs-zoom bugs (Runway, Kling, Sora, Veo)
+-   [cinematic-shot-prompting](https://github.com/287523023qq-hue/cinematic-shot-prompting): Deterministic 7-slot Hollywood camera motion contracts for AI video generation (merged in claude-skills v2.14.15)
 
 ### Product Usage
 
