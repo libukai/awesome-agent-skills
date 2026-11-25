@@ -274,6 +274,8 @@ gh skill publish                                 # Validate and publish a Skill
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
 
+-   [x402socks](https://github.com/X402Socks/skill): Buy short-lived proxy egress for authorized targets with USDC on Base through x402, with operator-signed approval and TLS CONNECT on 3129.
+
 ## Security Audit
 
 Skills are not passive documentation: descriptions influence discovery, instructions change agent behavior, and scripts may access files, networks, credentials, and external accounts. Review six layers of risk: provenance, content, dependencies, permissions, runtime, and updates.
