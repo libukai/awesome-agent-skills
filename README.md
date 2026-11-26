@@ -258,6 +258,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill): Content creation framework by an X influencer based on their own tweets
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/): AI-assisted WeChat article writing from drafting to publishing
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill): Distill books, videos, and podcasts into executable Agent Skills
+-   [BulkPublish Social Media Skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills): Skills for AI agents to plan, adapt, review, schedule, and publish social media content
 
 ### Product Usage
 
