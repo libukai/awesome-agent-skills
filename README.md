@@ -247,6 +247,8 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [apple-dev-docs](https://github.com/BingoWon/apple-rag-mcp/tree/main/skills/apple-dev-docs): Search official Apple Developer docs & WWDC transcripts and browse SwiftUI/UIKit topics via MCP or CLI
+
 
 ### Content Creation
 
