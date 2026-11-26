@@ -258,6 +258,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)：X のインフルエンサーが自身のツイートをもとに制作したコンテンツ制作フレームワーク
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：執筆から公開まで AI 支援の WeChat 記事作成
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：書籍、動画、ポッドキャストを実行可能な Agent Skills に蒸留
+-   [leisure-cat](https://github.com/leisure-cat/ai-photo-poses)：ユーザーの写真を見て 20 スタイル・200 体のデッサン人形からポーズを提案し、「写真 + デッサン人形」でポートレートを生成
 
 ### 製品活用
 
