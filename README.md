@@ -247,6 +247,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [archify](https://github.com/tt-a1i/archify): Verifiable, exportable architecture and workflow diagrams
 -   [text-to-cad](https://github.com/earthtojake/text-to-cad): CAD, CAE, and CAM agent skills
 -   [native-feel-skill](https://github.com/yetone/native-feel-skill): Native-feeling cross-platform desktop app guidance
+-   [plc-program-design](https://github.com/tia-forge/plc-program-design): Five gated stages for PLC programs — action matrix, IO list, module split, SCL, acceptance
 
 ### Content Creation
 
