@@ -258,6 +258,7 @@ gh skill publish                                 # Skill を検証して公開
 -   [dontbesilent](https://github.com/dontbesilent2025/dbskill)：X のインフルエンサーが自身のツイートをもとに制作したコンテンツ制作フレームワーク
 -   [seekjourney](https://github.com/geekjourneyx/md2wechat-skill/)：執筆から公開まで AI 支援の WeChat 記事作成
 -   [cangjie-skill](https://github.com/kangarooking/cangjie-skill)：書籍、動画、ポッドキャストを実行可能な Agent Skills に蒸留
+-   [BulkPublish Social Media Skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills)：AI エージェント向けのソーシャルメディアコンテンツの企画・リライト・レビュー・予約・公開スキル集
 
 ### 製品活用
 
