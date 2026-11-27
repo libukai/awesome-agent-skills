@@ -273,6 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
+-   [vertical-agent-skills](https://github.com/wade12124/vertical-agent-skills): Vertical industry-workflow skill collection: recurring data-tracking report contracts, scheduled-automation lifecycle, screening-charter funnel diagnosis, pre-offer company due diligence, Chinese genre-fiction craft, longform drift gates, and a WebMCP page-tool bridge
 
 ## Security Audit
 
