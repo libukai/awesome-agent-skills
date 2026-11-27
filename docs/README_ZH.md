@@ -278,7 +278,7 @@ gh skill publish                                 # 校验并发布技能
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours)：使用 YC 的视角提供各种创业建议
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills)：强化市场营销的能力
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 提升科研工作者的技能
--   [vertical-agent-skills](https://github.com/wade12124/vertical-agent-skills)：垂直行业工作流技能合集：周期数据跟踪研报契约、筛选章程闸门效率诊断、投递前企业背调、中文类型小说技法与文风闸门、WebMCP 页面工具桥
+-   [vertical-agent-skills](https://github.com/wade12124/vertical-agent-skills)：垂直行业工作流技能合集：周期数据跟踪研报契约、Qoder 定时自动化全周期、筛选章程闸门效率诊断、投递前企业背调、中文类型小说技法与长篇漂移闸门、WebMCP 页面工具桥
 
 
 ## 安全审查

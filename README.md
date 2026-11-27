@@ -128,7 +128,7 @@ If version pinning and supply-chain provenance matter more, GitHub CLI 2.90.0 an
 gh skill search <query>                          # Search for Skills
 gh skill preview <owner/repo> <skill>            # Inspect content before installation
 gh skill install <owner/repo> <skill>@<tag>      # Install from a tag
-gh skill install <owner/repo> <skill> --pin <sha> # Install pinned to a commit
+gh skill install <owner/repo> <skill> --pin <sha> # Pin to a commit
 gh skill update --all                            # Check for and install updates
 gh skill publish                                 # Validate and publish a Skill
 ```
@@ -273,7 +273,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [office-hours](https://github.com/garrytan/gstack/tree/main/office-hours): Provide startup advice from a YC perspective
 -   [marketingskills](https://github.com/coreyhaines31/marketingskills): Enhance marketing capabilities
 -   [scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills): Improve skills for researchers
--   [vertical-agent-skills](https://github.com/wade12124/vertical-agent-skills): Vertical industry-workflow skill collection: recurring data-tracking report contracts, screening-charter funnel diagnosis, pre-offer company due diligence, Chinese genre-fiction craft with drift gates, and a WebMCP page-tool bridge
+-   [vertical-agent-skills](https://github.com/wade12124/vertical-agent-skills): Vertical industry-workflow skill collection: recurring data-tracking report contracts, scheduled-automation lifecycle, screening-charter funnel diagnosis, pre-offer company due diligence, Chinese genre-fiction craft, longform drift gates, and a WebMCP page-tool bridge
 
 ## Security Audit
 
