@@ -250,6 +250,7 @@ gh skill publish                                 # Validate and publish a Skill
 
 ### Content Creation
 
+- **[paper-audit](https://github.com/Tomsabay/academic-deai-audit)** - Zero-dependency deterministic Academic De-AI Auditor CLI & Agent Skill (`.docx`/`.tex`/`.md`/`.txt`) checking 80+ bilingual CN/EN AI clichés, sentence burstiness, language parity, and numeric/citation integrity.
 -   [baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat article writing, PPT creation, etc.
 -   [libukai](https://github.com/shikaijiaoyu/awesome-agent-skills): Obsidian-related skill collection, tailored for Obsidian writing workflows
 -   [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill): Polished HTML slide-deck generation
