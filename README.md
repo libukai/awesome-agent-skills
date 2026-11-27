@@ -265,6 +265,7 @@ gh skill publish                                 # Validate and publish a Skill
 -   [notebooklm](https://github.com/teng-lin/notebooklm-py): Control NotebookLM
 -   [n8n](https://github.com/czlonkowski/n8n-skills): Create n8n workflows
 -   [threejs](https://github.com/cloudai-x/threejs-skills): Assist with Three.js development
+-   [awesome-game-skill](https://github.com/gdfsdjj145/awesome-game-skill): 15 MIT-licensed game development skills (`SKILL.md`) for Godot, Unity, Phaser, and Three.js with interactive browser labs ([gameskill.dev](https://gameskill.dev))
 -   [skills-manage](https://github.com/iamzhihuix/skills-manage): Manage local Skills across multiple agent hosts
 
 ### Other Types
